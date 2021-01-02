@@ -21,10 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609582798936</updated>
-      <workItem from="1609582800030" duration="7652000" />
+      <workItem from="1609582800030" duration="9058000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -65,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609584822485</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create auth signup, signin and signout routes and validators">
+      <created>1609594973854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609594973854</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,13 +87,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup express, mongoDB and API routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup express, mongoDB and API routing" />
+    <MESSAGE value="Create auth signup, signin and signout routes and validators" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create auth signup, signin and signout routes and validators" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1609584824199">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1609594975044">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1609584824199" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1609594975044" />
     <state x="788" y="331" width="672" height="678" key="search.everywhere.popup" timestamp="1609584406781">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
