@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609582798936</updated>
-      <workItem from="1609582800030" duration="9058000" />
+      <workItem from="1609582800030" duration="13712000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -68,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609594973854</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Setup React Next">
+      <created>1609596371958</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609596371958</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,13 +99,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup express, mongoDB and API routing" />
     <MESSAGE value="Create auth signup, signin and signout routes and validators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create auth signup, signin and signout routes and validators" />
+    <MESSAGE value="Setup React Next" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup React Next" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1609594975044">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1609596373573">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1609594975044" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1609596373573" />
     <state x="788" y="331" width="672" height="678" key="search.everywhere.popup" timestamp="1609584406781">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
