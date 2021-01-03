@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/auth/SigninComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/auth/SigninComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609582798936</updated>
-      <workItem from="1609582800030" duration="21602000" />
+      <workItem from="1609582800030" duration="23473000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -98,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609702306916</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Setup auth and admin protected dashboards">
+      <created>1609703751893</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609703751893</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,13 +128,14 @@
     <MESSAGE value="Setup Signup FE Component" />
     <MESSAGE value="Integrate auth components, pages and routes" />
     <MESSAGE value="Setup auth and admin middleware" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup auth and admin middleware" />
+    <MESSAGE value="Setup auth and admin protected dashboards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup auth and admin protected dashboards" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1609702308550">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1609703753327">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1609702308550" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1609703753327" />
     <state x="784" y="347" key="run.anything.popup" timestamp="1609665723033">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
