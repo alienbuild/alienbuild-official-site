@@ -1,11 +1,10 @@
-import { useEffect, useState } from 'react'
-import { isAuth, signup } from "../../actions/auth";
+import { useState, useEffect } from 'react'
+import {signin, authenticate, isAuth} from "../../actions/auth";
 import Router from "next/router";
 
-const SignupComponent = () => {
+const SigninComponent = () => {
 
     const [values, setValues] = useState({
-        name: '',
         email: '',
         password: '',
         error: '',
@@ -14,7 +13,7 @@ const SignupComponent = () => {
         showForm: true
     })
 
-    const { name, email, password, error, loading, message, showForm } = values
+    const { email, password, error, loading, message, showForm } = values
 
     useEffect(() => {
         isAuth() && Router.push('/')
@@ -23,29 +22,22 @@ const SignupComponent = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         setValues({...values, loading: true, error: false})
-        const user = { name, email, password }
+        const user = { email, password }
 
-        signup(user)
+        signin(user)
             .then(data => {
-              if (data.error){
-                  setValues({
-                      ...values,
-                      error: data.error
-                  })
-              } else {
-                  setValues({
-                      ...values,
-                      name: '',
-                      email: '',
-                      password: '',
-                      error: '',
-                      loading: false,
-                      message: data.message,
-                      showForm: false
-                  })
-              }
+                if (data.error){
+                    setValues({
+                        ...values,
+                        error: data.error
+                    })
+                } else {
+                    authenticate(data, () => {
+                        Router.push('/')
+                    })
+                }
             })
-        }
+    }
 
     const handleChange = name => (e) => {
         setValues({...values, error: false, [name]: e.target.value })
@@ -56,14 +48,13 @@ const SignupComponent = () => {
     const showMessage = () => message ? <div>{message}</div> : null
 
 
-    const signupForm = () => {
+    const signinForm = () => {
         return(
             <form onSubmit={handleSubmit}>
-                <input value={name} type="text" placeholder={"Your name"} onChange={handleChange('name')} />
                 <input value={email} type="email" placeholder={"Your email"} onChange={handleChange('email')} />
                 <input value={password} type="password" placeholder={"Your password"} onChange={handleChange('password')} />
 
-                <button type="submit">Signup</button>
+                <button type="submit">Signin</button>
             </form>
         )
     }
@@ -72,9 +63,9 @@ const SignupComponent = () => {
             {showError()}
             {showLoading()}
             {showMessage()}
-            {showForm && signupForm()}
+            {showForm && signinForm()}
         </>
     )
 }
 
-export default SignupComponent
+export default SigninComponent

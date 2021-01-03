@@ -21,9 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/actions/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/auth/SignupComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/auth/SignupComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/signin.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/signin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609582798936</updated>
-      <workItem from="1609582800030" duration="13712000" />
+      <workItem from="1609582800030" duration="17680000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -79,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609596371958</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Setup Signup FE Component">
+      <created>1609665229455</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609665229455</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,13 +110,18 @@
     <MESSAGE value="Setup express, mongoDB and API routing" />
     <MESSAGE value="Create auth signup, signin and signout routes and validators" />
     <MESSAGE value="Setup React Next" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup React Next" />
+    <MESSAGE value="Setup Signup FE Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Signup FE Component" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1609596373573">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1609665245004">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1609596373573" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1609665245004" />
+    <state x="784" y="347" key="run.anything.popup" timestamp="1609665723033">
+      <screen x="0" y="0" width="2250" height="1460" />
+    </state>
+    <state x="784" y="347" key="run.anything.popup/0.0.2250.1460@0.0.2250.1460" timestamp="1609665723033" />
     <state x="788" y="331" width="672" height="678" key="search.everywhere.popup" timestamp="1609584406781">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
