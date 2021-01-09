@@ -7,6 +7,7 @@ const stripHtml = require('string-strip-html')
 const _ = require('lodash')
 const { errorHandler } = require('../helpers/dbErrorHandler')
 const fs = require('fs')
+const { smartTrim } = require('../helpers/blog')
 
 exports.create = (req,res) => {
     let form = new formidable.IncomingForm()
@@ -49,7 +50,7 @@ exports.create = (req,res) => {
         blog.slug = slugify(title).toLowerCase()
         blog.mtitle = `${title} | ${process.env.APP_NAME}`
         blog.mdesc = description
-        blog.excerpt = excerpt
+        blog.excerpt = smartTrim(excerpt, 320, ' ','...')
         blog.author = req.user._id
 
         let arrayOfCategories = categories && categories.split(',')
