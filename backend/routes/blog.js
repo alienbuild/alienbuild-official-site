@@ -1,8 +1,9 @@
 const express = require('express')
 const router = express.Router()
-const { testAPI } = require('../controllers/blog')
+const { create } = require('../controllers/blog')
+const { requireSignin, adminMiddleware } = require('../controllers/auth')
 
-// Test Route
-router.get('/test', testAPI)
+// Create blog
+router.post('/blog', requireSignin, adminMiddleware, create)
 
 module.exports = router

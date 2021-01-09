@@ -20,18 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/android-chrome-256x256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/actions/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +46,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.5.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.20" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../critical-mass/mmc-web-application" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -71,7 +69,7 @@
       <updated>1609582798936</updated>
       <workItem from="1609582800030" duration="24708000" />
       <workItem from="1609920568654" duration="1517000" />
-      <workItem from="1610180731921" duration="12108000" />
+      <workItem from="1610180731921" duration="16454000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -136,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610194081705</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Setup categories and tags crud components in the front end">
+      <created>1610214481225</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610214481225</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,17 +169,18 @@
     <MESSAGE value="Setup auth and admin protected dashboards" />
     <MESSAGE value="Setup category crud routes" />
     <MESSAGE value="Setup tags for blog and nprogress for front end visual loading indicator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup tags for blog and nprogress for front end visual loading indicator" />
+    <MESSAGE value="Setup categories and tags crud components in the front end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup categories and tags crud components in the front end" />
   </component>
   <component name="WindowStateProjectService">
     <state x="906" y="485" key="FileChooserDialogImpl" timestamp="1609953490486">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
     <state x="906" y="485" key="FileChooserDialogImpl/0.0.2250.1460@0.0.2250.1460" timestamp="1609953490486" />
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610194083858">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610214482641">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610194083858" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610214482641" />
     <state x="784" y="347" key="run.anything.popup" timestamp="1609665723033">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>

@@ -25,9 +25,9 @@ const Header = () => {
             ) }
 
             {/*Logged in and not admin*/}
-            { isAuth() && isAuth.role === 0 && (<Link href={"/user"}>Dashboard</Link>)}
+            { isAuth() && isAuth().role === 0 && (<Link href={"/user"}>Dashboard</Link>)}
             {/*Logged in and is admin*/}
-            { isAuth() && isAuth.role === 1 && (<Link href={"/admin"}>Admin</Link>)}
+            { isAuth() && isAuth().role === 1 && (<Link href={"/admin"}>Admin</Link>)}
 
             {/* If user is logged in*/}
             { isAuth() && (
