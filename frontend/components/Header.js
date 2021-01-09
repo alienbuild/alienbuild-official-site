@@ -14,7 +14,7 @@ Router.onRouteChangeError = url => NProgress.done()
 const Header = () => {
     return(
         <header>
-            Brand name: {APP_NAME}
+            Brand name: <Link href={"/"}>{APP_NAME}</Link>
 
             {/*If user is not logged in*/}
             { !isAuth() && (

@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +68,7 @@
       <updated>1609582798936</updated>
       <workItem from="1609582800030" duration="24708000" />
       <workItem from="1609920568654" duration="1517000" />
-      <workItem from="1610180731921" duration="18630000" />
+      <workItem from="1610180731921" duration="22247000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -150,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610223970631</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Create truncate method for blog excerpt/introtext">
+      <created>1610224311860</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610224311860</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,17 +192,18 @@
     <MESSAGE value="Setup categories and tags crud components in the front end" />
     <MESSAGE value="Setup blog controller and fix fe isAuth" />
     <MESSAGE value="Setup Blog API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Blog API" />
+    <MESSAGE value="Create truncate method for blog excerpt/introtext" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create truncate method for blog excerpt/introtext" />
   </component>
   <component name="WindowStateProjectService">
     <state x="906" y="485" key="FileChooserDialogImpl" timestamp="1609953490486">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
     <state x="906" y="485" key="FileChooserDialogImpl/0.0.2250.1460@0.0.2250.1460" timestamp="1609953490486" />
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610223971931">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610224313375">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610223971931" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610224313375" />
     <state x="784" y="347" key="run.anything.popup" timestamp="1609665723033">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>

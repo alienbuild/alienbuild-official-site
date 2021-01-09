@@ -13,6 +13,9 @@ const AdminIndex = () => (
                 <li>
                     <Link href={`/admin/crud/category-tag`}>Create Tag</Link>
                 </li>
+                <li>
+                    <Link href={`/admin/crud/blog`}>Create Blog</Link>
+                </li>
             </ul>
         </Admin>
     </Layout>
