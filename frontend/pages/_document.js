@@ -12,6 +12,7 @@ class MyDocument extends Document {
                     {/*<link rel="manifest" href="../site.webmanifest" />*/}
                     {/*<meta name="msapplication-TileColor" content="#2b5797" />*/}
                     {/*<meta name="theme-color" content="#ffffff" />*/}
+                    <link rel="stylesheet" href={"https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css"}/>
                 </Head>
                 <body>
                 <Main />

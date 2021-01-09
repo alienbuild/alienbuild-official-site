@@ -1,7 +1,15 @@
 import { APP_NAME } from '../config'
-import { signout, isAuth } from "../actions/auth";
-import Link from "next/link";
-import Router from "next/router";
+import { signout, isAuth } from "../actions/auth"
+import NProgress from 'nprogress'
+import Link from "next/link"
+import Router from "next/router"
+
+NProgress.configure({ showSpinner: false });
+
+Router.onRouteChangeStart = url => NProgress.start()
+Router.onRouteChangeComplete = url => NProgress.done()
+Router.onRouteChangeError = url => NProgress.done()
+
 
 const Header = () => {
     return(
