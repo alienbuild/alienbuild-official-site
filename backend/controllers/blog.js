@@ -161,7 +161,21 @@ exports.listAllBlogsCategoriesTags = (req,res) => {
 }
 
 exports.read = (req,res) => {
+    const slug = req.params.slug.toLowerCase()
 
+    Blog.findOne({ slug })
+        .populate('categories', '_id name, slug')
+        .populate('tags', '_id name, slug')
+        .populate('author', '_id name username')
+        .select('_id title body mtitle mdesc slug categories tags author createdAt updatedAt')
+        .exec((err, data) => {
+            if (err){
+                return res.status(400).json({
+                    error: errorHandler(err)
+                })
+            }
+            res.json(data)
+        })
 }
 
 exports.remove = (req,res) => {
