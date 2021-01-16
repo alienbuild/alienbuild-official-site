@@ -20,6 +20,9 @@ exports.create = (req,res) => {
         }
         const { title, body, description, excerpt, categories, tags } = fields
 
+        console.log('Form fields are: ', fields)
+
+
         if (!title || !title.length){
             return res.status(400).json({
                 error: 'Title is required'
@@ -50,7 +53,7 @@ exports.create = (req,res) => {
         blog.slug = slugify(title).toLowerCase()
         blog.mtitle = `${title} | ${process.env.APP_NAME}`
         blog.mdesc = description
-        blog.excerpt = smartTrim(excerpt, 320, ' ','...')
+        //blog.excerpt = smartTrim(excerpt, 320, ' ','...')
         blog.author = req.user._id
 
         let arrayOfCategories = categories && categories.split(',')
@@ -65,6 +68,7 @@ exports.create = (req,res) => {
             blog.photo.data = fs.readFileSync(files.photo.path)
             blog.photo.contentType = files.photo.type
         }
+
 
         blog.save((err, result) => {
             console.log('Error is: ', err)

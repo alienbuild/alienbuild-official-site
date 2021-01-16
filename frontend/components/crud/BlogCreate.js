@@ -1,4 +1,3 @@
-import Link from "next/link"
 import { useState, useEffect } from 'react'
 import Router from "next/router"
 import dynamic from "next/dynamic"
@@ -9,7 +8,6 @@ import { getTags } from "../../actions/tag"
 import { createBlog } from "../../actions/blog"
 
 const ReactQuill = dynamic(() => import('react-quill'), {ssr: false})
-// import '../../node_modules/react-quill/dist/quill.snow.css'
 
 const CreateBlog = ({ router }) => {
 
@@ -41,14 +39,14 @@ const CreateBlog = ({ router }) => {
     const [checkedCategory, setCheckedCategory] = useState([])
     const [checkedTag, setCheckedTag] = useState([])
 
-
-    const { error, sizeError, success, formData, title, hidePublishButton } = values
-
     useEffect(() => {
         setValues({ ...values, formData: new FormData() })
         initCategories()
         initTags()
     },[router])
+
+    const { error, sizeError, success, formData, title, hidePublishButton } = values
+    const token = getCookie('token')
 
     const initCategories = () => {
         getCategories()
@@ -88,7 +86,17 @@ const CreateBlog = ({ router }) => {
 
     const publishBlog = (e) => {
         e.preventDefault()
-        console.log('Publishing blog')
+        createBlog(formData, token)
+            .then(data => {
+                if (data.error){
+                    setValues({...values, error: data.error})
+                } else {
+                    setValues({...values, title: '', error: '', success: `A new blog titled "${data.title}" was created.`})
+                    setBody('')
+                    setCheckedCategory([])
+                    setCheckedTag([])
+                }
+            })
     }
 
     const createBlogForm = () => {
@@ -120,7 +128,6 @@ const CreateBlog = ({ router }) => {
         } else {
             all.splice(clickedCategory, 1)
         }
-        console.log('Checked all:', all)
         setCheckedCategory(all)
         formData.set('categories', all)
     }
@@ -135,9 +142,8 @@ const CreateBlog = ({ router }) => {
         } else {
             all.splice(clickedTag, 1)
         }
-        console.log('Checked all:', all)
         setCheckedTag(all)
-        formData.set('categories', all)
+        formData.set('tags', all)
     }
 
     const showCategories = () => {
@@ -164,13 +170,26 @@ const CreateBlog = ({ router }) => {
 
     return(
         <>
-            <h2>Create blog form</h2>
             {createBlogForm()}
+
+            <hr/>
+
             <h5>Categories</h5>
             <ul>{showCategories()}</ul>
+
             <hr/>
+
             <h5>Tags</h5>
             <ul>{showTags()}</ul>
+
+            <hr/>
+
+            <h5>Featured image</h5>
+            <small>Max size: 1mb</small>
+            <label>
+                Upload featured image
+                <input type="file" accept="image/*" onChange={handleChange('photo')} hidden />
+            </label>
         </>
     )
 }
