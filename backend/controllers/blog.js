@@ -126,8 +126,8 @@ exports.listAllBlogsCategoriesTags = (req,res) => {
     let tags
 
     Blog.find({})
-        .populate('categories', '_id name, slug')
-        .populate('tags', '_id name, slug')
+        .populate('categories', '_id name slug')
+        .populate('tags', '_id name slug')
         .populate('author', '_id name username profile')
         .sort({ createdAt : -1 })
         .skip(offset)

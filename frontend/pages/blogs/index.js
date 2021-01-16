@@ -6,21 +6,13 @@ import { listBlogsWithCategoriesAndTags } from "../../actions/blog"
 import { API } from "../../config"
 import renderHTML from 'react-render-html'
 import moment from "moment";
+import NewsCard from "../../components/blog/NewsCard"
 
 const Blogs = ({ blogs, categories, tags, size }) => {
 
     const showAllBlogs = () => {
         return blogs.map((blog, index) => (
-            <article key={index}>
-                <Link href={`/blogs/${blog.slug}`}>
-                    <a>
-                        <header><h2>{blog.title}</h2></header>
-                        {/*/!*<section>{renderHTML(blog.introtext)}</section>*!/ TODO: Setup introtext field, route, controller*/}
-                        <section>Written by {blog.author.name} | Published {moment(blog.updatedAt).fromNow()}</section>
-                        <section>Categories: | Tags: </section>
-                    </a>
-                </Link>
-            </article>
+            <NewsCard key={index} blog={blog} />
         ))
     }
     return (

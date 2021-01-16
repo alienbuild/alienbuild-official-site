@@ -1,0 +1,44 @@
+import Link from "next/link";
+import moment from "moment";
+
+const NewsCard = ({ blog }) => {
+
+    const showBlogCategories = blog => {
+        console.log('blog is: ', blog)
+        return blog.categories.map((category, index) => (
+            <Link key={index} href={`/categories/${category.slug}`}>
+                <a>{category.name}</a>
+            </Link>
+        ))
+    }
+
+    const showBlogTags = blog => {
+        return blog.tags.map((tags, index) => (
+            <Link key={index} href={`/tags/${tag.slug}`}>
+                <a>{tag.name}</a>
+            </Link>
+        ))
+    }
+
+    return(
+        <>
+            <article>
+                        <header>
+                            <Link href={`/blogs/${blog.slug}`}>
+                                <a><h2>{blog.title}</h2></a>
+                            </Link>
+                        </header>
+                        {/*/!*<section>{renderHTML(blog.introtext)}</section>*!/ TODO: Setup introtext field, route, controller*/}
+                        <section>Written by {blog.author.name} | Published {moment(blog.updatedAt).fromNow()}</section>
+                        <section>
+                            {showBlogCategories(blog)}
+                            {showBlogTags(blog)}
+                        </section>
+                        <section>Categories: | Tags: </section>
+            </article>
+
+        </>
+    )
+}
+
+export default NewsCard
