@@ -179,6 +179,18 @@ exports.read = (req,res) => {
 }
 
 exports.remove = (req,res) => {
+    const slug = req.params.slug.toLowerCase()
+    Blog.findOneAndRemove({ slug })
+        .exec((err, data) => {
+            if (err){
+                return res.status(400).json({
+                    error: errorHandler(err)
+                })
+            }
+            res.json({
+                message: 'Blog deleted successfully.'
+            })
+        })
 
 }
 
