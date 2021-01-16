@@ -16,6 +16,8 @@ const Header = () => {
         <header>
             Brand name: <Link href={"/"}>{APP_NAME}</Link>
 
+            <Link href={"/blogs"}>Blogs</Link>
+
             {/*If user is not logged in*/}
             { !isAuth() && (
                 <>
