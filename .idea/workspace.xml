@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/blog/NewsCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/blog/NewsCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/blogs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/blogs/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,7 @@
       <workItem from="1609582800030" duration="24708000" />
       <workItem from="1609920568654" duration="1517000" />
       <workItem from="1610180731921" duration="24232000" />
-      <workItem from="1610789317053" duration="20194000" />
+      <workItem from="1610789317053" duration="22553000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -243,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610833775570</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Display categories and tags related to blog listing">
+      <created>1610835550559</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610835550559</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +270,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setup express, mongoDB and API routing" />
     <MESSAGE value="Create auth signup, signin and signout routes and validators" />
     <MESSAGE value="Setup React Next" />
     <MESSAGE value="Setup Signup FE Component" />
@@ -287,17 +294,18 @@
     <MESSAGE value="Create show blog photo controller + route" />
     <MESSAGE value="Setup blog page on front end" />
     <MESSAGE value="Setup SSR for get all blogs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup SSR for get all blogs" />
+    <MESSAGE value="Display categories and tags related to blog listing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Display categories and tags related to blog listing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="906" y="485" key="FileChooserDialogImpl" timestamp="1609953490486">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
     <state x="906" y="485" key="FileChooserDialogImpl/0.0.2250.1460@0.0.2250.1460" timestamp="1609953490486" />
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610833777412">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610835551990">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610833777412" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610835551990" />
     <state x="784" y="347" key="run.anything.popup" timestamp="1609665723033">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
