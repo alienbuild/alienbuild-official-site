@@ -6,6 +6,7 @@ import { getCookie, isAuth } from "../../actions/auth"
 import { getCategories } from "../../actions/category"
 import { getTags } from "../../actions/tag"
 import { createBlog } from "../../actions/blog"
+import { QuillFormats, QuillModules } from "../../helpers/quill";
 
 const ReactQuill = dynamic(() => import('react-quill'), {ssr: false})
 
@@ -106,8 +107,8 @@ const CreateBlog = ({ router }) => {
                 <input type="text" value={title} onChange={handleChange('title')} />
                 <div className="quill">
                     <ReactQuill
-                        modules={CreateBlog.modules}
-                        formats={CreateBlog.formats}
+                        modules={QuillModules}
+                        formats={QuillFormats}
                         value={body}
                         placeholder={"Write something awesome."}
                         onChange={handleBody}
@@ -168,8 +169,18 @@ const CreateBlog = ({ router }) => {
         )
     }
 
+    const showError = () => (
+        <div className={`alert`} style={{ display: error ? 'block' : 'none'}}>{error}</div>
+    )
+
+    const showSuccess = () => (
+        <div className={`alert`} style={{ display: success ? 'block' : 'none'}}>{success}</div>
+    )
+
     return(
         <>
+            {showError()}
+            {showSuccess()}
             {createBlogForm()}
 
             <hr/>
@@ -193,35 +204,5 @@ const CreateBlog = ({ router }) => {
         </>
     )
 }
-
-// RTE options and extras
-CreateBlog.modules = {
-    toolbar: [
-        [{ header: '1' }, { header: '2' }, { header: [3, 4, 5, 6] }, { font: [] }],
-        [{ size: [] }],
-        ['bold', 'italic', 'underline', 'strike', 'blockquote'],
-        [{ list: 'ordered' }, { list: 'bullet' }],
-        ['link', 'image', 'video'],
-        ['clean'],
-        ['code-block']
-    ]
-}
-
-CreateBlog.formats = [
-    'header',
-    'font',
-    'size',
-    'bold',
-    'italic',
-    'underline',
-    'strike',
-    'blockquote',
-    'list',
-    'bullet',
-    'link',
-    'image',
-    'video',
-    'code-block'
-]
 
 export default withRouter(CreateBlog)
