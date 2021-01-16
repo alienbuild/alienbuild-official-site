@@ -22,7 +22,9 @@
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/actions/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/actions/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/blogs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/blogs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
       <workItem from="1609582800030" duration="24708000" />
       <workItem from="1609920568654" duration="1517000" />
       <workItem from="1610180731921" duration="24232000" />
-      <workItem from="1610789317053" duration="16163000" />
+      <workItem from="1610789317053" duration="18460000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -229,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610829044377</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Setup blog page on front end">
+      <created>1610829615694</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1610829615694</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,17 +280,18 @@
     <MESSAGE value="Create delete singular blog controller" />
     <MESSAGE value="Create update singular blog controller" />
     <MESSAGE value="Create show blog photo controller + route" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create show blog photo controller + route" />
+    <MESSAGE value="Setup blog page on front end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup blog page on front end" />
   </component>
   <component name="WindowStateProjectService">
     <state x="906" y="485" key="FileChooserDialogImpl" timestamp="1609953490486">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
     <state x="906" y="485" key="FileChooserDialogImpl/0.0.2250.1460@0.0.2250.1460" timestamp="1609953490486" />
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610829045802">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610829617422">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610829045802" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610829617422" />
     <state x="784" y="347" key="run.anything.popup" timestamp="1609665723033">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
