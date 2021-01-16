@@ -118,7 +118,46 @@ exports.list = (req,res) => {
 }
 
 exports.listAllBlogsCategoriesTags = (req,res) => {
+    let limit = req.body.limit ? parseInt(req.body.limit) : 10
+    let offset = req.body.offset ? parseInt(req.body.offset) : 0
 
+    let blogs
+    let categories
+    let tags
+
+    Blog.find({})
+        .populate('categories', '_id name, slug')
+        .populate('tags', '_id name, slug')
+        .populate('author', '_id name username profile')
+        .sort({ createdAt : -1 })
+        .skip(offset)
+        .limit(limit)
+        .select('_id title slug categories tags author createdAt updatedAt')
+        .exec((err, data) => {
+            if (err){
+                return res.status(400).json({
+                    error: errorHandler(err)
+                })
+            }
+            blogs = data
+            Category.find({})
+                .exec((err, categories) => {
+                    if (err){
+                        return res.status(400).json({
+                            error: errorHandler(err)
+                        })
+                    }
+                    Tag.find({})
+                        .exec((err, tags) => {
+                            if (err){
+                                return res.status(400).json({
+                                    error: errorHandler(err)
+                                })
+                            }
+                            res.json({ blogs, categories, tags, size: blogs.length })
+                        })
+                })
+        })
 }
 
 exports.read = (req,res) => {
