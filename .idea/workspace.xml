@@ -21,9 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/crud/BlogCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/crud/BlogCreate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/components/quill.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/components/quill.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/blog.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <workItem from="1609582800030" duration="24708000" />
       <workItem from="1609920568654" duration="1517000" />
       <workItem from="1610180731921" duration="24232000" />
-      <workItem from="1610789317053" duration="8364000" />
+      <workItem from="1610789317053" duration="10725000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -181,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610805134613</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update blog published messaging">
+      <created>1610809002608</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610809002608</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,17 +222,18 @@
     <MESSAGE value="Setup blog component, quill, quill modules and localstorage set/get of blog" />
     <MESSAGE value="Update BlogCreate to implement show, selecting and unselecting of categories and tags" />
     <MESSAGE value="Setup publish blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup publish blog" />
+    <MESSAGE value="Update blog published messaging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update blog published messaging" />
   </component>
   <component name="WindowStateProjectService">
     <state x="906" y="485" key="FileChooserDialogImpl" timestamp="1609953490486">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
     <state x="906" y="485" key="FileChooserDialogImpl/0.0.2250.1460@0.0.2250.1460" timestamp="1609953490486" />
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610805136078">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610810209314">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610805136078" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610810209314" />
     <state x="784" y="347" key="run.anything.popup" timestamp="1609665723033">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>

@@ -100,3 +100,36 @@ exports.create = (req,res) => {
         })
     })
 }
+
+exports.list = (req,res) => {
+    Blog.find({})
+        .populate('categories', '_id name, slug')
+        .populate('tags', '_id name, slug')
+        .populate('author', '_id name username')
+        .select('_id title slug categories tags author createdAt updatedAt')
+        .exec((err, data) => {
+            if (err){
+                return res.status(400).json({
+                    error: errorHandler(err)
+                })
+            }
+            res.json(data)
+        })
+}
+
+exports.listAllBlogsCategoriesTags = (req,res) => {
+
+}
+
+exports.read = (req,res) => {
+
+}
+
+exports.remove = (req,res) => {
+
+}
+
+exports.update = (req,res) => {
+
+}
+
