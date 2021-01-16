@@ -35,11 +35,42 @@ const CreateBlog = ({ router }) => {
         hidePublishButton: false
     })
 
+    const [categories, setCategories] = useState([])
+    const [tags, setTags] = useState([])
+
+    const [checkedCategory, setCheckedCategory] = useState([])
+    const [checkedTag, setCheckedTag] = useState([])
+
+
     const { error, sizeError, success, formData, title, hidePublishButton } = values
 
     useEffect(() => {
         setValues({ ...values, formData: new FormData() })
+        initCategories()
+        initTags()
     },[router])
+
+    const initCategories = () => {
+        getCategories()
+            .then(data => {
+                if (data.error){
+                    setValues({...values, error: data.error})
+                } else {
+                    setCategories(data)
+                }
+            })
+    }
+
+    const initTags = () => {
+        getTags()
+            .then(data => {
+                if (data.error){
+                    setValues({...values, error: data.error})
+                } else {
+                    setTags(data)
+                }
+            })
+    }
 
     const handleChange = name => e => {
         const value = name === 'photo' ? e.target.files[0] : e.target.value
@@ -78,14 +109,73 @@ const CreateBlog = ({ router }) => {
             </form>
         )
     }
+
+    const handleCategoryToggle = (category) => () => {
+        setValues({...values, error: ''})
+        const clickedCategory = checkedCategory.indexOf(category)
+        const all = [...checkedCategory]
+
+        if (clickedCategory === -1){
+            all.push(category)
+        } else {
+            all.splice(clickedCategory, 1)
+        }
+        console.log('Checked all:', all)
+        setCheckedCategory(all)
+        formData.set('categories', all)
+    }
+
+    const handleTagToggle = (tag) => () => {
+        setValues({...values, error: ''})
+        const clickedTag = checkedTag.indexOf(tag)
+        const all = [...checkedTag]
+
+        if (clickedTag === -1){
+            all.push(tag)
+        } else {
+            all.splice(clickedTag, 1)
+        }
+        console.log('Checked all:', all)
+        setCheckedTag(all)
+        formData.set('categories', all)
+    }
+
+    const showCategories = () => {
+        return(
+            categories && categories.map((category, index) => (
+                <li key={index}>
+                    <input type="checkbox" onChange={handleCategoryToggle(category._id)} />
+                    <label>{category.name}</label>
+                </li>
+            ))
+        )
+    }
+
+    const showTags = () => {
+        return(
+            tags && tags.map((tag, index) => (
+                <li key={index}>
+                    <input type="checkbox" onChange={handleTagToggle(tag._id)} />
+                    <label>{tag.name}</label>
+                </li>
+            ))
+        )
+    }
+
     return(
         <>
             <h2>Create blog form</h2>
             {createBlogForm()}
+            <h5>Categories</h5>
+            <ul>{showCategories()}</ul>
+            <hr/>
+            <h5>Tags</h5>
+            <ul>{showTags()}</ul>
         </>
     )
 }
 
+// RTE options and extras
 CreateBlog.modules = {
     toolbar: [
         [{ header: '1' }, { header: '2' }, { header: [3, 4, 5, 6] }, { font: [] }],
