@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/blog.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       <workItem from="1609582800030" duration="24708000" />
       <workItem from="1609920568654" duration="1517000" />
       <workItem from="1610180731921" duration="24232000" />
-      <workItem from="1610789317053" duration="12163000" />
+      <workItem from="1610789317053" duration="14722000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -199,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610825171291</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Create fetch singular blog controller">
+      <created>1610825343579</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1610825343579</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Create delete singular blog controller">
+      <created>1610825747171</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610825747171</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,17 +252,19 @@
     <MESSAGE value="Update blog published messaging" />
     <MESSAGE value="Create list all blogs route" />
     <MESSAGE value="Create fetch all blogs, categories and tags controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create fetch all blogs, categories and tags controller" />
+    <MESSAGE value="Create fetch singular blog controller" />
+    <MESSAGE value="Create delete singular blog controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create delete singular blog controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="906" y="485" key="FileChooserDialogImpl" timestamp="1609953490486">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
     <state x="906" y="485" key="FileChooserDialogImpl/0.0.2250.1460@0.0.2250.1460" timestamp="1609953490486" />
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610825172523">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610825748493">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610825172523" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610825748493" />
     <state x="784" y="347" key="run.anything.popup" timestamp="1609665723033">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
