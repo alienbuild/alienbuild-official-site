@@ -65,7 +65,7 @@
       <workItem from="1609582800030" duration="24708000" />
       <workItem from="1609920568654" duration="1517000" />
       <workItem from="1610180731921" duration="24232000" />
-      <workItem from="1610789317053" duration="27686000" />
+      <workItem from="1610789317053" duration="29761000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -270,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610881262097</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Render single blog page">
+      <created>1610882595148</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1610882595148</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +296,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Integrate auth components, pages and routes" />
     <MESSAGE value="Setup auth and admin middleware" />
     <MESSAGE value="Setup auth and admin protected dashboards" />
     <MESSAGE value="Setup category crud routes" />
@@ -314,24 +320,25 @@
     <MESSAGE value="Setup blog index meta data head" />
     <MESSAGE value="Setup dynamically load more blogs functionality" />
     <MESSAGE value="Setup single blog component/route" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup single blog component/route" />
+    <MESSAGE value="Render single blog page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Render single blog page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="906" y="485" key="FileChooserDialogImpl" timestamp="1609953490486">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
     <state x="906" y="485" key="FileChooserDialogImpl/0.0.2250.1460@0.0.2250.1460" timestamp="1609953490486" />
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610881263569">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1610882601078">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610881263569" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1610882601078" />
     <state x="784" y="347" key="run.anything.popup" timestamp="1609665723033">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
     <state x="784" y="347" key="run.anything.popup/0.0.2250.1460@0.0.2250.1460" timestamp="1609665723033" />
-    <state x="788" y="331" width="672" height="678" key="search.everywhere.popup" timestamp="1609584406781">
+    <state x="789" y="332" width="672" height="678" key="search.everywhere.popup" timestamp="1610886076470">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="788" y="331" width="672" height="678" key="search.everywhere.popup/0.0.2250.1460@0.0.2250.1460" timestamp="1609584406781" />
+    <state x="789" y="332" width="672" height="678" key="search.everywhere.popup/0.0.2250.1460@0.0.2250.1460" timestamp="1610886076470" />
   </component>
 </project>

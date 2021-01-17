@@ -7,7 +7,26 @@ import { singleBlog } from "../../actions/blog"
 import { API, DOMAIN, APP_NAME } from '../../config'
 import renderHTML from 'react-render-html'
 
-const SingleBlog = ({ blog }) => {
+const SingleBlog = ({ blog, query }) => {
+
+    const head = () => (
+        <Head>
+            <title>{blog.title} | {APP_NAME}</title>
+
+            <meta name={"description"} content={blog.mdesc} />
+            <link rel="canonical" href={`${DOMAIN}/blogs/${query.slug}`} />
+            <meta property={"og:title"} content={`${blog.title} | ${APP_NAME}`} />
+            <meta property={"og:description"} content={blog.mdesc} />
+            <meta property={"og:type"} content="website" />
+            <meta property={"og:url"} content={`${DOMAIN}/blogs/${query.slug}`} />
+            <meta property={"og:site_name"} content={`${APP_NAME}`} />
+
+            {/*<meta property={"og:image"} content={`${APP_NAME}/blog/photo/${blog.slug}`} /> TODO: Add images and app id*/}
+            {/*<meta property={"og:image:secure_url"} content={`${APP_NAME}/blog/photo/${blog.slug}`} />*/}
+            {/*<meta property={"og:image:type"} content={`image/jpg`} />*/}
+            {/*<meta property={"fb:app_id"} content={`${APP_NAME}`}/>*/}
+        </Head>
+    )
 
     const showBlogCategories = blog => {
         return blog.categories.map((category, index) => (
@@ -27,10 +46,12 @@ const SingleBlog = ({ blog }) => {
 
     return(
         <>
+            {head()}
             <Layout>
                 <main>
                     <article>
                         <header>
+                            <h1>{blog.title}</h1>
                             <img src={`${API}/blog/photo/${blog.slug}`} alt={blog.title} />
                             Written by {blog.author.name} | Published {moment(blog.updatedAt).fromNow()}
                             {showBlogCategories(blog)}
@@ -41,6 +62,8 @@ const SingleBlog = ({ blog }) => {
                         </section>
                     </article>
                 </main>
+                <h5>Recommended</h5>
+
             </Layout>
         </>
     )
@@ -52,7 +75,7 @@ SingleBlog.getInitialProps = ({query}) => {
             if (data.error){
                 console.log(data.error)
             } else {
-                return {blog: data}
+                return {blog: data, query}
             }
         })
 }
