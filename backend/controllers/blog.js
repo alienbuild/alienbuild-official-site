@@ -273,3 +273,24 @@ exports.photo = (req,res) => {
             return res.send(blog.photo.data)
         })
 }
+
+exports.listRelated = (req,res) => {
+    let limit = req.body.limit ? parseInt(req.body.limit) : 3
+    const { _id, categories } = req.body.blog
+
+    Blog.find({
+        _id: {$ne: _id },
+        categories: {$in: categories}
+    })
+        .limit(limit)
+        .populate('author', '_id name profile')
+        .select('title slug author createdAt updatedAt')
+        .exec((err, blogs) => {
+            if (err){
+                return res.status(400).json({
+                    error: 'No blogs were found.'
+                })
+            }
+            res.json(blogs)
+        })
+}

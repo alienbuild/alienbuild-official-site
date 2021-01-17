@@ -2,10 +2,12 @@ import Head from "next/head"
 import Link from "next/link"
 import moment from "moment";
 import Layout from "../../components/Layout"
-import { useState } from 'react'
-import { singleBlog } from "../../actions/blog"
+import { useState, useEffect } from 'react'
+import { singleBlog, listRelated } from "../../actions/blog"
 import { API, DOMAIN, APP_NAME } from '../../config'
 import renderHTML from 'react-render-html'
+import RelatedNews from "../../components/blog/RelatedNews";
+
 
 const SingleBlog = ({ blog, query }) => {
 
@@ -28,6 +30,22 @@ const SingleBlog = ({ blog, query }) => {
         </Head>
     )
 
+    useEffect(() => {
+       loadRelated()
+    },[])
+
+    const [related, setRelated] = useState([])
+    const loadRelated = () => {
+        listRelated({blog})
+            .then(data => {
+                if (data.error){
+                    console.log(data.error)
+                } else {
+                    setRelated(data)
+                }
+            })
+    }
+
     const showBlogCategories = blog => {
         return blog.categories.map((category, index) => (
             <Link key={index} href={`/categories/${category.slug}`}>
@@ -41,6 +59,16 @@ const SingleBlog = ({ blog, query }) => {
             <Link key={index} href={`/tags/${tag.slug}`}>
                 <a>{tag.name}</a>
             </Link>
+        ))
+    }
+
+    const showRelatedBlogs = () => {
+        return related.map((blog,index) => (
+            <li key={index}>
+                <article>
+                    <RelatedNews blog={blog} />
+                </article>
+            </li>
         ))
     }
 
@@ -63,7 +91,7 @@ const SingleBlog = ({ blog, query }) => {
                     </article>
                 </main>
                 <h5>Recommended</h5>
-
+                {showRelatedBlogs()}
             </Layout>
         </>
     )
