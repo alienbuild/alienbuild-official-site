@@ -5,7 +5,6 @@ import { API } from "../../config"
 const NewsCard = ({ blog }) => {
 
     const showBlogCategories = blog => {
-        console.log('blog is: ', blog)
         return blog.categories.map((category, index) => (
             <Link key={index} href={`/categories/${category.slug}`}>
                 <a>{category.name}</a>

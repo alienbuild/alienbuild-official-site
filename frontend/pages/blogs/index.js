@@ -9,7 +9,7 @@ import moment from "moment";
 import NewsCard from "../../components/blog/NewsCard"
 import { API, DOMAIN, APP_NAME } from '../../config'
 
-const Blogs = ({ blogs, categories, tags, size, router }) => {
+const Blogs = ({ blogs, categories, tags, totalBlogs, blogsLimit, blogsOffset, router }) => {
 
     const head = () => (
         <Head>
@@ -29,6 +29,31 @@ const Blogs = ({ blogs, categories, tags, size, router }) => {
             {/*<meta property={"fb:app_id"} content={`${APP_NAME}`}/>*/}
         </Head>
     )
+
+    const [limit, setLimit] = useState(blogsLimit)
+    const [offset, setOffset] = useState(blogsOffset)
+    const [size, setSize] = useState(totalBlogs)
+    const [loadedBlogs, setLoadedBlogs] = useState([])
+
+    const loadMore = () => {
+        let toOffset = offset + limit
+        listBlogsWithCategoriesAndTags(toOffset, limit)
+            .then(data => {
+                if (data.error){
+                    console.log('Error: ', data.error)
+                } else {
+                    setLoadedBlogs([...loadedBlogs, ...data.blogs])
+                    setSize(data.size)
+                    setOffset(toOffset)
+                }
+            })
+    }
+
+    const loadMoreButton = () => {
+        return (
+            size > 0 && size >= limit && (<button onClick={loadMore}>Load more</button>)
+        )
+    }
 
     const showAllBlogs = () => {
         return blogs.map((blog, index) => (
@@ -52,6 +77,14 @@ const Blogs = ({ blogs, categories, tags, size, router }) => {
         ))
     }
 
+    const showLoadedBlogs = () => {
+        return loadedBlogs.map((blog, index) => (
+            <article key={index}>
+                <NewsCard blog={blog} />
+            </article>
+        ))
+    }
+
     return (
         <>
             {head()}
@@ -64,6 +97,8 @@ const Blogs = ({ blogs, categories, tags, size, router }) => {
                 <hr/>
                 Show all blogs
                 {showAllBlogs()}
+                {showLoadedBlogs()}
+                {loadMoreButton()}
                 <hr/>
             </Layout>
         </>
@@ -71,7 +106,9 @@ const Blogs = ({ blogs, categories, tags, size, router }) => {
 }
 
 Blogs.getInitialProps = () => {
-    return listBlogsWithCategoriesAndTags()
+    let offset = 0
+    let limit = 10
+    return listBlogsWithCategoriesAndTags(offset, limit)
         .then(data => {
             if (data.error){
                 console.log(data.error)
@@ -80,7 +117,9 @@ Blogs.getInitialProps = () => {
                     blogs: data.blogs,
                     categories: data.categories,
                     tags: data.tags,
-                    size: data.size
+                    totalBlogs: data.size,
+                    blogsLimit: limit,
+                    blogsOffset: offset
                 }
             }
         })

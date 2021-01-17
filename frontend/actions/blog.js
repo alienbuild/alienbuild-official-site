@@ -18,12 +18,18 @@ export const createBlog = (blog, token) => {
         .catch( err => console.log('Error is: ', err))
 }
 
-export const listBlogsWithCategoriesAndTags = () => {
+export const listBlogsWithCategoriesAndTags = (offset, limit) => {
+    const data = {
+        limit,
+        offset
+    }
     return fetch(`${API}/blogs-categories-tags`, {
         method: "POST",
         headers: {
             Accept: 'application/json',
+            'Content-Type': 'application/json'
         },
+        body: JSON.stringify(data)
     })
         .then(response => {
             return response.json()
