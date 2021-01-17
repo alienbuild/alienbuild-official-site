@@ -36,3 +36,13 @@ export const listBlogsWithCategoriesAndTags = (offset, limit) => {
         })
         .catch( err => console.log('Error is: ', err))
 }
+
+export const singleBlog = slug => {
+    return fetch(`${API}/blog/${slug}`, {
+        method: "GET",
+    })
+        .then(response => {
+            return response.json()
+        })
+        .catch(err => console.log('Error is: ', err))
+}
