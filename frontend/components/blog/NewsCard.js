@@ -13,7 +13,7 @@ const NewsCard = ({ blog }) => {
     }
 
     const showBlogTags = blog => {
-        return blog.tags.map((tags, index) => (
+        return blog.tags.map((tag, index) => (
             <Link key={index} href={`/tags/${tag.slug}`}>
                 <a>{tag.name}</a>
             </Link>

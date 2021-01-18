@@ -14,10 +14,10 @@ const AdminIndex = () => (
                     <Link href={`/admin/crud/category-tag`}>Create Tag</Link>
                 </li>
                 <li>
-                    <Link href={`/admin/crud/blog`}>Create Blog</Link>
+                    <a href={`/admin/crud/blog`}>Create Blog</a>
                 </li>
                 <li>
-                    <Link href={`/admin/crud/blogs`}>Update/Delete Blog</Link>
+                    <a href={`/admin/crud/blogs`}>Update/Delete Blog</a>
                 </li>
             </ul>
         </Admin>
