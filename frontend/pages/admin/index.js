@@ -16,6 +16,9 @@ const AdminIndex = () => (
                 <li>
                     <Link href={`/admin/crud/blog`}>Create Blog</Link>
                 </li>
+                <li>
+                    <Link href={`/admin/crud/blogs`}>Update/Delete Blog</Link>
+                </li>
             </ul>
         </Admin>
     </Layout>
