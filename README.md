@@ -9,7 +9,7 @@ module.exports = {
     publicRuntimeConfig: {
         APP_NAME: 'Alienbuild',
         API_DEVELOPMENT: 'http://localhost:8000/api',
-        API_PRODUCTION: 'https://alienbuild.uk/api'
+        API_PRODUCTION: 'https://alienbuild.uk/api',
         PRODUCTION: false,
         DOMAIN_DEVELOPMENT: 'http://localhost:3000',
         DOMAIN_PRODUCTION: 'https://alienbuild.uk'
