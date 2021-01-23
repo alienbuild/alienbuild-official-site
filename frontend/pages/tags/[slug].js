@@ -1,19 +1,19 @@
 import Head from "next/head"
 import Layout from "../../components/Layout"
-import { singleCategory } from "../../actions/category"
+import { singleTag } from "../../actions/tag"
 import { DOMAIN, APP_NAME } from '../../config'
 import NewsCard from "../../components/blog/NewsCard"
 
-const Category = ({ category, blogs, query }) => {
+const Tag = ({ tag, blogs, query }) => {
 
     const head = () => (
         <Head>
-            <title>{category.name} | {APP_NAME}</title>
+            <title>{tag.name} | {APP_NAME}</title>
 
-            <meta name={"description"} content={`${category.name}`} />
+            <meta name={"description"} content={`${tag.name}`} />
             <link rel="canonical" href={`${DOMAIN}/categories/${query.slug}`} />
-            <meta property={"og:title"} content={`${category.name} | ${APP_NAME}`} />
-            <meta property={"og:description"} content={`${category.name}`} />
+            <meta property={"og:title"} content={`${tag.name} | ${APP_NAME}`} />
+            <meta property={"og:description"} content={`${tag.name}`} />
             <meta property={"og:type"} content="website" />
             <meta property={"og:url"} content={`${DOMAIN}/categories/${query.slug}`} />
             <meta property={"og:site_name"} content={`${APP_NAME}`} />
@@ -30,7 +30,7 @@ const Category = ({ category, blogs, query }) => {
             {head()}
             <Layout>
                 <main>
-                    <h1>{category.name}</h1>
+                    <h1>{tag.name}</h1>
                     {blogs.map((blog, index) => (
                         <NewsCard key={index} blog={blog} />
                     ))}
@@ -40,14 +40,14 @@ const Category = ({ category, blogs, query }) => {
     )
 }
 
-Category.getInitialProps = ({ query }) => {
-    return singleCategory(query.slug)
+Tag.getInitialProps = ({ query }) => {
+    return singleTag(query.slug)
         .then(data => {
             if (data.error){
                 console.log('Error: ', data.error)
             } else {
                 return {
-                    category: data.category,
+                    tag: data.tag,
                     blogs: data.blogs,
                     query
                 }
@@ -55,4 +55,4 @@ Category.getInitialProps = ({ query }) => {
         })
 }
 
-export default Category
+export default Tag

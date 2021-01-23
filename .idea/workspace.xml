@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/tag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/categories/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/categories/[slug].js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <workItem from="1610789317053" duration="35904000" />
       <workItem from="1610914189622" duration="863000" />
       <workItem from="1610997571724" duration="9069000" />
-      <workItem from="1611394303748" duration="2099000" />
+      <workItem from="1611394303748" duration="4327000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -316,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611006340045</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Create categories individual page and display associated blogs">
+      <created>1611400317514</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1611400317514</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +343,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setup blog controller and fix fe isAuth" />
     <MESSAGE value="Setup Blog API" />
     <MESSAGE value="Create truncate method for blog excerpt/introtext" />
     <MESSAGE value="Setup blog component, quill, quill modules and localstorage set/get of blog" />
@@ -360,6 +367,7 @@
     <MESSAGE value="Update README.md with installation and setup instructions" />
     <MESSAGE value="Fix README.md instructions" />
     <MESSAGE value="Implement update blog front end" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement update blog front end" />
+    <MESSAGE value="Create categories individual page and display associated blogs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create categories individual page and display associated blogs" />
   </component>
 </project>

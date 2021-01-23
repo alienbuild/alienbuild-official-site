@@ -1,5 +1,6 @@
 const Tag = require('../models/tag')
 const slugify = require('slugify')
+const Blog = require('../models/blog')
 const { errorHandler } = require('../helpers/dbErrorHandler')
 
 exports.create = (req,res) => {
@@ -42,7 +43,22 @@ exports.read = (req,res) => {
                     error: 'Tag not found'
                 })
             }
-            res.json(tag)
+            Blog.find({tags: tag})
+                .populate('categories', '_id name slug')
+                .populate('tags', '_id name slug')
+                .populate('author', '_id name')
+                .select('_id title slug categories author tags createdAt updatedAt')
+                .exec((err, data) => {
+                    if (err){
+                        res.status(400).json({
+                            error: errorHandler(err)
+                        })
+                    }
+                    res.json({
+                        tag: tag,
+                        blogs: data
+                    })
+                })
         })
 }
 
