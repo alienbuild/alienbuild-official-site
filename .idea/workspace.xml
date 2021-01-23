@@ -21,10 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/blog/NewsCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/blog/NewsCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/crud/BlogRead.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/crud/BlogRead.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/blogs/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/blogs/[slug].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/category.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +41,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="15.5.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.20" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../critical-mass/mmc-web-application" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -71,6 +69,7 @@
       <workItem from="1610789317053" duration="35904000" />
       <workItem from="1610914189622" duration="863000" />
       <workItem from="1610997571724" duration="9069000" />
+      <workItem from="1611394303748" duration="2099000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -362,23 +361,5 @@
     <MESSAGE value="Fix README.md instructions" />
     <MESSAGE value="Implement update blog front end" />
     <option name="LAST_COMMIT_MESSAGE" value="Implement update blog front end" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="906" y="485" key="FileChooserDialogImpl" timestamp="1609953490486">
-      <screen x="0" y="0" width="2250" height="1460" />
-    </state>
-    <state x="906" y="485" key="FileChooserDialogImpl/0.0.2250.1460@0.0.2250.1460" timestamp="1609953490486" />
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1611006341731">
-      <screen x="0" y="0" width="2250" height="1460" />
-    </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1611006341731" />
-    <state x="784" y="347" key="run.anything.popup" timestamp="1609665723033">
-      <screen x="0" y="0" width="2250" height="1460" />
-    </state>
-    <state x="784" y="347" key="run.anything.popup/0.0.2250.1460@0.0.2250.1460" timestamp="1609665723033" />
-    <state x="789" y="332" width="672" height="678" key="search.everywhere.popup" timestamp="1610886076470">
-      <screen x="0" y="0" width="2250" height="1460" />
-    </state>
-    <state x="789" y="332" width="672" height="678" key="search.everywhere.popup/0.0.2250.1460@0.0.2250.1460" timestamp="1610886076470" />
   </component>
 </project>

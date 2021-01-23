@@ -1,5 +1,6 @@
 const Category = require('../models/category')
 const slugify = require('slugify')
+const Blog = require('../models/blog')
 const { errorHandler } = require('../helpers/dbErrorHandler')
 
 exports.create = (req,res) => {
@@ -28,7 +29,22 @@ exports.read = (req,res) => {
                     error: errorHandler(err)
                 })
             }
-            res.json(category)
+            Blog.find({categories: category})
+                .populate('categories', '_id name slug')
+                .populate('tags', '_id name slug')
+                .populate('author', '_id name')
+                .select('_id title slug categories author tags createdAt updatedAt')
+                .exec((err, data) => {
+                    if (err){
+                        res.status(400).json({
+                            error: errorHandler(err)
+                        })
+                    }
+                    res.json({
+                        category,
+                        blogs: data
+                    })
+                })
         })
 }
 
