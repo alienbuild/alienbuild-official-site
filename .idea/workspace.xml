@@ -21,8 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/tag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/categories/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/categories/[slug].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/actions/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/actions/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +75,8 @@
       <workItem from="1610789317053" duration="35904000" />
       <workItem from="1610914189622" duration="863000" />
       <workItem from="1610997571724" duration="9069000" />
-      <workItem from="1611394303748" duration="4327000" />
+      <workItem from="1611394303748" duration="6283000" />
+      <workItem from="1611406263550" duration="1694000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -324,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611400317514</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Create tags individual page and display associated blogs">
+      <created>1611402549300</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1611402549300</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +356,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setup Blog API" />
     <MESSAGE value="Create truncate method for blog excerpt/introtext" />
     <MESSAGE value="Setup blog component, quill, quill modules and localstorage set/get of blog" />
     <MESSAGE value="Update BlogCreate to implement show, selecting and unselecting of categories and tags" />
@@ -368,6 +380,7 @@
     <MESSAGE value="Fix README.md instructions" />
     <MESSAGE value="Implement update blog front end" />
     <MESSAGE value="Create categories individual page and display associated blogs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create categories individual page and display associated blogs" />
+    <MESSAGE value="Create tags individual page and display associated blogs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create tags individual page and display associated blogs" />
   </component>
 </project>

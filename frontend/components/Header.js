@@ -3,6 +3,7 @@ import { signout, isAuth } from "../actions/auth"
 import NProgress from 'nprogress'
 import Link from "next/link"
 import Router from "next/router"
+import Search from "./blog/Search"
 
 NProgress.configure({ showSpinner: false });
 
@@ -15,6 +16,9 @@ const Header = () => {
     return(
         <header>
             Brand name: <Link href={"/"}>{APP_NAME}</Link>
+            <br/>
+            <Search />
+            <br/>
 
             <Link href={"/blogs"}>Blogs</Link>
 
