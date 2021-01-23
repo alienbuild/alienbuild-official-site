@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import getConfig from "next/config"
+import Layout from "../components/Layout";
 const { publicRuntimeConfig } = getConfig()
 
 class MyDocument extends Document {

@@ -6,8 +6,10 @@ import { useState, useEffect } from 'react'
 import { singleBlog, listRelated } from "../../actions/blog"
 import { API, DOMAIN, APP_NAME } from '../../config'
 import renderHTML from 'react-render-html'
-import RelatedNews from "../../components/blog/RelatedNews";
-
+import RelatedNews from "../../components/blog/RelatedNews"
+import parse from 'html-react-parser';
+import {Light as SyntaxHighlighter} from "react-syntax-highlighter";
+import docco from "react-syntax-highlighter/dist/cjs/styles/hljs/docco";
 
 const SingleBlog = ({ blog, query }) => {
 
@@ -86,12 +88,19 @@ const SingleBlog = ({ blog, query }) => {
                             {showBlogTags(blog)}
                         </header>
                         <section>
-                            {renderHTML(blog.body)}
+                            {parse(blog.body, {
+                                replace: ({ attribs, children }) => {
+                                    if (attribs && attribs.class === 'ql-syntax'){
+                                        return <SyntaxHighlighter language="html" style={docco} showLineNumbers children={children[0].data} />
+                                    }
+                                }
+                            })}
                         </section>
                     </article>
                 </main>
                 <h5>Recommended</h5>
                 {showRelatedBlogs()}
+
             </Layout>
         </>
     )
