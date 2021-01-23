@@ -21,10 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/blogs/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/blogs/[slug].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,7 @@
       <workItem from="1610914189622" duration="863000" />
       <workItem from="1610997571724" duration="9069000" />
       <workItem from="1611394303748" duration="6283000" />
-      <workItem from="1611406263550" duration="7500000" />
+      <workItem from="1611406263550" duration="8796000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -341,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611412546593</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Fix syntax highlighting">
+      <created>1611418583020</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1611418583020</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +363,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setup blog component, quill, quill modules and localstorage set/get of blog" />
     <MESSAGE value="Update BlogCreate to implement show, selecting and unselecting of categories and tags" />
     <MESSAGE value="Setup publish blog" />
     <MESSAGE value="Update blog published messaging" />
@@ -385,6 +387,7 @@
     <MESSAGE value="Create categories individual page and display associated blogs" />
     <MESSAGE value="Create tags individual page and display associated blogs" />
     <MESSAGE value="Setup Google analytics injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Google analytics injection" />
+    <MESSAGE value="Fix syntax highlighting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix syntax highlighting" />
   </component>
 </project>
