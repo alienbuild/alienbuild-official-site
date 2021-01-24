@@ -5,6 +5,15 @@ import styles from '../public/assets/styles/styles.scss';
 // import App from 'next/app'
 
 const theme = createMuiTheme({
+    overrides: {
+        MuiButton: {
+            root: {
+                fontSize: '1rem',
+                borderRadius: '5px',
+                textTransform: 'none'
+            },
+        },
+    },
     typography: {
         fontFamily: [
             'Alliance No1',
@@ -23,16 +32,10 @@ const theme = createMuiTheme({
     palette: {
         type: 'dark',
         primary: {
-            light: '#fed56b',
-            main: '#fecb47',
-            dark: '#b18e31',
-            contrastText: '#000',
+            main: '#ea4094',
         },
         secondary: {
-            light: '#ea504b',
-            main: '#e5251f',
-            dark: '#a01915',
-            contrastText: '#fff',
+            main: '#6d9ce2',
         },
     },
 });

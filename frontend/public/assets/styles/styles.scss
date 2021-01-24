@@ -15,9 +15,13 @@
 @import 'components/quill';
 
 // Components
+@import 'components/aside';
 @import 'components/header';
-@import 'components/indexHero';
 @import 'components/waves';
+@import 'components/perspectiveMockups';
+
+// Pages
+@import 'pages/home';
 
 // Trumps
 @import 'trumps';

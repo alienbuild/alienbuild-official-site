@@ -37,6 +37,26 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Alienbuild';
+  src: url('../fonts/Aliens.eot');
+  src: url('../fonts/Aliens.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Aliens.woff2') format('woff2'),
+  url('../fonts/Aliens.woff') format('woff'),
+  url('../fonts/Aliens.ttf') format('truetype'),
+  url('../fonts/Aliens.svg#StuffedCannelloni') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body{
   font-family: 'Alliance No1';
+}
+
+.gradient-text{
+  background: linear-gradient(-90deg, #007bff 0%, #764fd0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
 }

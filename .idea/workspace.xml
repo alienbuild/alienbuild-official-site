@@ -20,30 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/Templates/Default.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/LordIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/LordIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/ui/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/admin/crud/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin/crud/[slug].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/admin/crud/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin/crud/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/admin/crud/blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin/crud/blogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/admin/crud/category-tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin/crud/category-tag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/blogs/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/blogs/[slug].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/blogs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/blogs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/categories/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/categories/[slug].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/signin.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/signin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/signup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/tags/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/tags/[slug].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/user/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/components/nprogress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/nprogress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/components/quill.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/quill.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/fonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/fonts/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/icons/140-earphone-telephone/140-earphone-telephone-solid.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/icons/140-earphone-telephone/140-earphone-telephone-solid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/images/alienbuild_logo--stacked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/images/alienbuild_logo--stacked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/components/indexHero.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/components/nprogress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/nprogress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -374,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611418583020</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Foundation for FE header on index">
+      <created>1611455543070</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1611455543070</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +391,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update BlogCreate to implement show, selecting and unselecting of categories and tags" />
     <MESSAGE value="Setup publish blog" />
     <MESSAGE value="Update blog published messaging" />
     <MESSAGE value="Create list all blogs route" />
@@ -418,7 +415,8 @@
     <MESSAGE value="Create tags individual page and display associated blogs" />
     <MESSAGE value="Setup Google analytics injection" />
     <MESSAGE value="Fix syntax highlighting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix syntax highlighting" />
+    <MESSAGE value="Foundation for FE header on index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Foundation for FE header on index" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1011" y="564" width="641" height="533" key="#File_Watchers" timestamp="1611438812272">
@@ -457,5 +455,21 @@
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
     <state x="627" y="375" key="SettingsEditor/0.0.2250.1460@0.0.2250.1460" timestamp="1611438715049" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1611455546662">
+      <screen x="0" y="0" width="2250" height="1460" />
+    </state>
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1611455546662" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/components/ui/Header.js</url>
+          <line>35</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

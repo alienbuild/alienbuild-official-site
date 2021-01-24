@@ -29,48 +29,90 @@ const Header = () => {
         }
     });
 
+
     const classes = useStyles();
 
     return(
         <header id="h-primary" className={classes.header}>
+            <DynamicLordIcon />
             <Grid
                 container
                 alignItems="center"
                 justify="center"
             >
-                <Link href={"/"}><a id={"main-logo"}><img src={'./assets/images/alienbuild_logo--stacked.svg'} alt={APP_NAME}/></a></Link>
                 <nav>
                     <ul>
                         <li><Link href={"/"}><a>
                             <lord-icon
                                 animation="loop"
-                                palette="#ffffff"
                                 target="a"
-                                size={'20px'}
-                                src={`./assets/icons/267-like-thumb-up/267-like-thumb-up-outline.json`}>
+                                palette="#CCCCCC;#ff2696;"
+                                size={'50px'}
+                                params="50"
+                                src={`./assets/icons/489-rocket-space/489-rocket-space-outline.json`}>
                             </lord-icon>
-                            Website
-                            <strong>Development</strong>
+                            <strong>Website</strong>
+                            Development
                         </a></Link></li>
                         <li><Link href={"/"}><a>
-                            Software
-                            <strong>Development</strong>
+                            <lord-icon
+                                animation="loop"
+                                target="a"
+                                palette="#CCCCCC;#ff2696;"
+                                size={'50px'}
+                                params="50"
+                                src={`./assets/icons/113-atom/113-atom-outline.json`}>
+                            </lord-icon>
+                            <strong>Software</strong>
+                            Development
                         </a></Link></li>
                         <li><Link href={"/"}><a>
-                            Ecommerce
-                            <strong>Development</strong>
+                            <lord-icon
+                                animation="loop"
+                                target="a"
+                                palette="#CCCCCC;#ff2696;"
+                                size={'50px'}
+                                params="50"
+                                src={`./assets/icons/139-basket/139-basket-outline.json`}>
+                            </lord-icon>
+                            <strong>Ecommerce</strong>
+                            Development
                         </a></Link></li>
                         <li><Link href={"/"}><a>
-                            UI/UX
-                            <strong>Design</strong>
+                            <lord-icon
+                                animation="loop"
+                                target="a"
+                                palette="#CCCCCC;#ff2696;"
+                                size={'50px'}
+                                params="50"
+                                src={`./assets/icons/117-vector-design-pen/117-vector-design-pen-outline.json`}>
+                            </lord-icon>
+                            <strong>UI/UX</strong>
+                            Design
+                        </a></Link></li>
+                        <li><Link href={"/blogs"}><a>
+                            <lord-icon
+                                animation="loop"
+                                target="a"
+                                palette="#CCCCCC;#ff2696"
+                                size={'50px'}
+                                params="50"
+                                src={`./assets/icons/439-lab-bottle-triangle/439-lab-bottle-triangle-outline.json`}>
+                            </lord-icon>
+                            <strong>The Lab</strong>
+                            Tutorials
                         </a></Link></li>
                         <li><Link href={"/"}><a>
-                            The Lab
-                            <strong>Tutorials</strong>
-                        </a></Link></li>
-                        <li><Link href={"/"}><a>
-                            Contact
-                            <strong>Alienbuild</strong>
+                            <lord-icon
+                                animation="loop"
+                                target="a"
+                                palette="#CCCCCC;#ff2696;"
+                                size={'50px'}
+                                params="50"
+                                src={`./assets/icons/140-earphone-telephone/140-earphone-telephone-outline.json`}>
+                            </lord-icon>
+                            <strong>Contact</strong>
+                            Alienbuild
                         </a></Link></li>
                     </ul>
                 </nav>
