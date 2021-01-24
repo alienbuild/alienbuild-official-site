@@ -1,11 +1,11 @@
-import Layout from "../../../components/Layout";
+import Default from "../../../Templates/Default";
 import Admin from "../../../components/auth/Admin";
 import Link from "next/link"
 import Category from "../../../components/crud/Category";
 import Tag from "../../../components/crud/Tag";
 
 const CategoryTag = () => (
-    <Layout>
+    <Default>
         <Admin>
             <h2>Manage Categories and Tags</h2>
             <hr/>
@@ -15,7 +15,7 @@ const CategoryTag = () => (
             <h3>Tags</h3>
             <Tag />
         </Admin>
-    </Layout>
+    </Default>
 )
 
 export default CategoryTag

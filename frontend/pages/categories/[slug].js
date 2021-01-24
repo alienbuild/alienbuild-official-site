@@ -1,5 +1,5 @@
 import Head from "next/head"
-import Layout from "../../components/Layout"
+import Default from "../../Templates/Default"
 import { singleCategory } from "../../actions/category"
 import { DOMAIN, APP_NAME } from '../../config'
 import NewsCard from "../../components/blog/NewsCard"
@@ -28,14 +28,14 @@ const Category = ({ category, blogs, query }) => {
     return(
         <>
             {head()}
-            <Layout>
+            <Default>
                 <main>
                     <h1>{category.name}</h1>
                     {blogs.map((blog, index) => (
                         <NewsCard key={index} blog={blog} />
                     ))}
                 </main>
-            </Layout>
+            </Default>
         </>
     )
 }

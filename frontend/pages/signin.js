@@ -1,11 +1,11 @@
-import Layout from "../components/Layout";
+import Default from "../Templates/Default";
 import SigninComponent from "../components/auth/SigninComponent";
 
 const Signin = () => (
-    <Layout>
+    <Default>
         <h2>Sign in.</h2>
         <SigninComponent />
-    </Layout>
+    </Default>
 )
 
 export default Signin

@@ -1,12 +1,12 @@
-import Layout from "../components/Layout";
+import Default from "../Templates/Default";
 import Link from "next/link";
 import SignupComponent from "../components/auth/SignupComponent";
 
 const Signup = () => (
-    <Layout>
+    <Default>
         <h2>Signup page</h2>
         <SignupComponent />
-    </Layout>
+    </Default>
 )
 
 export default Signup

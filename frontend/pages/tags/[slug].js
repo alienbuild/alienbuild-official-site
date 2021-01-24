@@ -1,5 +1,5 @@
 import Head from "next/head"
-import Layout from "../../components/Layout"
+import Default from "../../Templates/Default"
 import { singleTag } from "../../actions/tag"
 import { DOMAIN, APP_NAME } from '../../config'
 import NewsCard from "../../components/blog/NewsCard"
@@ -28,14 +28,14 @@ const Tag = ({ tag, blogs, query }) => {
     return(
         <>
             {head()}
-            <Layout>
+            <Default>
                 <main>
                     <h1>{tag.name}</h1>
                     {blogs.map((blog, index) => (
                         <NewsCard key={index} blog={blog} />
                     ))}
                 </main>
-            </Layout>
+            </Default>
         </>
     )
 }

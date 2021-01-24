@@ -1,0 +1,29 @@
+.wave-container {
+  position: relative;
+  color: #FFF;
+  overflow: visible;
+  &:after{
+    content:"";
+    height: 300px;
+    width: 100%;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: -webkit-linear-gradient(-90deg, transparent 0%, #01011D 50%);
+  }
+  &.inverse-waves{
+    .wave-footer{
+      top: 100%;
+      bottom: -150px;
+      transform: rotate(180deg);
+    }
+  }
+  .wave-footer{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 100%;
+    z-index: 10;
+  }
+}

@@ -1,12 +1,12 @@
-import Layout from "../../components/Layout";
+import Default from "../../Templates/Default";
 import Private from "../../components/auth/Private";
 
 const UserIndex = () => (
-    <Layout>
+    <Default>
         <Private>
             <h2>User Dashboard</h2>
         </Private>
-    </Layout>
+    </Default>
 )
 
 export default UserIndex

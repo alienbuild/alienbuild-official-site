@@ -1,9 +1,9 @@
-import Layout from "../../components/Layout";
+import Default from "../../Templates/Default";
 import Admin from "../../components/auth/Admin";
 import Link from "next/link"
 
 const AdminIndex = () => (
-    <Layout>
+    <Default>
         <Admin>
             <h2>Admin Dashboard</h2>
             <ul>
@@ -21,7 +21,7 @@ const AdminIndex = () => (
                 </li>
             </ul>
         </Admin>
-    </Layout>
+    </Default>
 )
 
 export default AdminIndex

@@ -20,7 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Templates/Default.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/admin/crud/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin/crud/[slug].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/admin/crud/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin/crud/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/admin/crud/blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin/crud/blogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/admin/crud/category-tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin/crud/category-tag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/blogs/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/blogs/[slug].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/blogs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/blogs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/categories/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/categories/[slug].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/signin.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/signin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/tags/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/tags/[slug].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/user/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/components/nprogress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/nprogress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/components/quill.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/quill.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +63,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.19.15" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.5.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.22" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../critical-mass/mmc-web-application" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_lab\alienbuild-official-site\frontend\public\assets\styles" />
+      <recent name="C:\_lab\alienbuild-official-site\frontend\Templates" />
+      <recent name="C:\_lab\alienbuild-official-site\frontend\components\ui" />
+      <recent name="C:\_lab\alienbuild-official-site\frontend\components" />
       <recent name="C:\_lab\alienbuild-official-site\frontend\public" />
     </key>
   </component>
@@ -389,5 +419,43 @@
     <MESSAGE value="Setup Google analytics injection" />
     <MESSAGE value="Fix syntax highlighting" />
     <option name="LAST_COMMIT_MESSAGE" value="Fix syntax highlighting" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1011" y="564" width="641" height="533" key="#File_Watchers" timestamp="1611438812272">
+      <screen x="0" y="0" width="2250" height="1460" />
+    </state>
+    <state x="1011" y="564" width="641" height="533" key="#File_Watchers/0.0.2250.1460@0.0.2250.1460" timestamp="1611438812272" />
+    <state x="868" y="554" key="#Notifications" timestamp="1611438764439">
+      <screen x="0" y="0" width="2250" height="1460" />
+    </state>
+    <state x="868" y="554" key="#Notifications/0.0.2250.1460@0.0.2250.1460" timestamp="1611438764439" />
+    <state x="906" y="553" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1611438808641">
+      <screen x="0" y="0" width="2250" height="1460" />
+    </state>
+    <state x="906" y="553" key="#com.intellij.ide.macro.MacrosDialog/0.0.2250.1460@0.0.2250.1460" timestamp="1611438808641" />
+    <state x="793" y="509" width="662" height="676" key="EditFileWatcherDialog" timestamp="1611438811580">
+      <screen x="0" y="0" width="2250" height="1460" />
+    </state>
+    <state x="793" y="509" width="662" height="676" key="EditFileWatcherDialog/0.0.2250.1460@0.0.2250.1460" timestamp="1611438811580" />
+    <state width="2208" height="421" key="GridCell.Tab.0.bottom" timestamp="1611430675369">
+      <screen x="0" y="0" width="2250" height="1460" />
+    </state>
+    <state width="2208" height="421" key="GridCell.Tab.0.bottom/0.0.2250.1460@0.0.2250.1460" timestamp="1611430675369" />
+    <state width="2208" height="421" key="GridCell.Tab.0.center" timestamp="1611430675369">
+      <screen x="0" y="0" width="2250" height="1460" />
+    </state>
+    <state width="2208" height="421" key="GridCell.Tab.0.center/0.0.2250.1460@0.0.2250.1460" timestamp="1611430675369" />
+    <state width="2208" height="421" key="GridCell.Tab.0.left" timestamp="1611430675369">
+      <screen x="0" y="0" width="2250" height="1460" />
+    </state>
+    <state width="2208" height="421" key="GridCell.Tab.0.left/0.0.2250.1460@0.0.2250.1460" timestamp="1611430675369" />
+    <state width="2208" height="421" key="GridCell.Tab.0.right" timestamp="1611430675369">
+      <screen x="0" y="0" width="2250" height="1460" />
+    </state>
+    <state width="2208" height="421" key="GridCell.Tab.0.right/0.0.2250.1460@0.0.2250.1460" timestamp="1611430675369" />
+    <state x="627" y="375" key="SettingsEditor" timestamp="1611438715049">
+      <screen x="0" y="0" width="2250" height="1460" />
+    </state>
+    <state x="627" y="375" key="SettingsEditor/0.0.2250.1460@0.0.2250.1460" timestamp="1611438715049" />
   </component>
 </project>

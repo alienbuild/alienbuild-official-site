@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Link from "next/link"
 import { withRouter } from 'next/router'
-import Layout from "../../components/Layout"
+import Default from "../../Templates/Default"
 import { useState } from 'react'
 import { listBlogsWithCategoriesAndTags } from "../../actions/blog"
 import renderHTML from 'react-render-html'
@@ -88,7 +88,7 @@ const Blogs = ({ blogs, categories, tags, totalBlogs, blogsLimit, blogsOffset, r
     return (
         <>
             {head()}
-            <Layout>
+            <Default>
                 <h2>Categories</h2>
                 {showAllCategories()}
                 <hr/>
@@ -100,7 +100,7 @@ const Blogs = ({ blogs, categories, tags, totalBlogs, blogsLimit, blogsOffset, r
                 {showLoadedBlogs()}
                 {loadMoreButton()}
                 <hr/>
-            </Layout>
+            </Default>
         </>
     )
 }

@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Link from "next/link"
 import moment from "moment";
-import Layout from "../../components/Layout"
+import Default from "../../Templates/Default"
 import { useState, useEffect } from 'react'
 import { singleBlog, listRelated } from "../../actions/blog"
 import { API, DOMAIN, APP_NAME } from '../../config'
@@ -77,7 +77,7 @@ const SingleBlog = ({ blog, query }) => {
     return(
         <>
             {head()}
-            <Layout>
+            <Default>
                 <main>
                     <article>
                         <header>
@@ -101,7 +101,7 @@ const SingleBlog = ({ blog, query }) => {
                 <h5>Recommended</h5>
                 {showRelatedBlogs()}
 
-            </Layout>
+            </Default>
         </>
     )
 }

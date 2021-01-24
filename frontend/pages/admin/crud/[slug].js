@@ -1,15 +1,15 @@
-import Layout from "../../../components/Layout";
+import Default from "../../../Templates/Default";
 import Admin from "../../../components/auth/Admin";
 import BlogUpdate from "../../../components/crud/BlogUpdate"
 import Link from "next/link"
 
 const Blog = () => (
-    <Layout>
+    <Default>
         <Admin>
             <h2>Update blog</h2>
             <BlogUpdate />
         </Admin>
-    </Layout>
+    </Default>
 )
 
 export default Blog
