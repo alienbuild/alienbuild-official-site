@@ -11,47 +11,6 @@
       z-index: 0;
       opacity: 0.7;
     }
-    #main-logo-text{
-      background: linear-gradient(-90deg, #4bcf96 0%, #764fd0 100%);
-      width: auto;
-      display: inline-block;
-      margin: auto;
-      text-align: center;
-      padding: 5px 10px;
-      border-radius: 5px;
-      text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
-      box-shadow: 1px 1px 0 0 #000000, inset 1px 1px 0 0 rgba(255,255,255,0.3);
-      opacity: 0.8;
-      margin-bottom: 20px;
-      position: relative;
-      overflow: hidden;
-      &:after{
-        content:"";
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.4) 50%, transparent 100%);
-        animation-name: shine;
-        animation-iteration-count: infinite;
-        animation-duration: 8s;
-        z-index: -1;
-      }
-      span{
-        font-family: "Alienbuild";
-        text-transform: none;
-        text-align: center;
-        font-size: 42px;
-        line-height: 42px;
-        margin-bottom: 0;
-        font-weight: 100;
-        position: relative;
-        color: #000;
-        //-webkit-background-clip: text;
-        //-webkit-text-fill-color: transparent;
-      }
-    }
     .lead{
       color: #5e9ee8;
       position: relative;
@@ -72,15 +31,7 @@
       }
     }
     h1.hero-heading{
-      color: #fff;
-      text-transform: uppercase;
-      font-weight: 900;
-      background: linear-gradient(-90deg, #F7F7F7 0%, #cccccc 100%);
-      background-clip: text;
-      text-align: center;
-      -webkit-text-fill-color: transparent;
-      -webkit-box-decoration-break: clone;
-      text-shadow: 2px 1px 0px rgba(0,0,0,0.05);
+
     }
     small{
       text-transform: uppercase;
@@ -97,15 +48,60 @@
   margin: 100px 0 50px 0;
 }
 
-.textExp {
-  .text-transition_inner{
-    div{
-      background: -webkit-linear-gradient(-90deg, #F7F7F7 0%, #cccccc 100%);
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -webkit-box-decoration-break: clone;
-      text-shadow: 2px 1px 0px rgba(0,0,0,0.05);
-    }
+.alienbuild-logo{
+  background: linear-gradient(-90deg, #4bcf96 0%, #764fd0 100%);
+  width: auto;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
+  box-shadow: 1px 1px 0 0 #000000, inset 1px 1px 0 0 rgba(255,255,255,0.3);
+  opacity: 0.8;
+  position: relative;
+  overflow: hidden;
+  &:after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.4) 50%, transparent 100%);
+    animation-name: shine;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    z-index: -1;
+  }
+  span{
+    font-family: "Alienbuild";
+    text-transform: none;
+    text-align: center;
+    font-size: 42px;
+    line-height: 42px;
+    margin-bottom: 0;
+    font-weight: 100;
+    position: relative;
+    color: #000;
+    //-webkit-background-clip: text;
+    //-webkit-text-fill-color: transparent;
+  }
+}
+
+.gradient-text{
+  &--white{
+    background: linear-gradient(-90deg, #F7F7F7 0%, #CCCCCCC 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    text-shadow: 2px 1px 0 rgba(0,0,0,0.05);
+  }
+  &--test{
+    background: linear-gradient(-90deg, #ff2696 0%, #3C82F6 100%);
+    display: inline-block;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
   }
 }
 

@@ -21,14 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/components/ui/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/ui/Waves.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/Waves.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_document.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/pages/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +87,7 @@
       <workItem from="1611406263550" duration="8796000" />
       <workItem from="1611572840647" duration="327000" />
       <workItem from="1611943084811" duration="1293000" />
-      <workItem from="1611998477035" duration="5479000" />
+      <workItem from="1611998477035" duration="24820000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -369,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611455543070</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Remove material ui">
+      <created>1612004015051</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1612004015051</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +395,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setup publish blog" />
     <MESSAGE value="Update blog published messaging" />
     <MESSAGE value="Create list all blogs route" />
     <MESSAGE value="Create fetch all blogs, categories and tags controller" />
@@ -413,7 +419,8 @@
     <MESSAGE value="Setup Google analytics injection" />
     <MESSAGE value="Fix syntax highlighting" />
     <MESSAGE value="Foundation for FE header on index" />
-    <option name="LAST_COMMIT_MESSAGE" value="Foundation for FE header on index" />
+    <MESSAGE value="Remove material ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove material ui" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1011" y="564" width="641" height="533" key="#File_Watchers" timestamp="1611438812272">
@@ -452,20 +459,9 @@
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
     <state x="627" y="375" key="SettingsEditor/0.0.2250.1460@0.0.2250.1460" timestamp="1611438715049" />
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1611455546662">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1612004024529">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1611455546662" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/frontend/components/ui/Header.js</url>
-          <line>21</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1612004024529" />
   </component>
 </project>

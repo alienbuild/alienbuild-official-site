@@ -1,5 +1,6 @@
 import Head from "next/head"
 import styles from '../public/assets/styles/styles.scss';
+// import "tailwindcss/tailwind.css";
 
 // import App from 'next/app'
 

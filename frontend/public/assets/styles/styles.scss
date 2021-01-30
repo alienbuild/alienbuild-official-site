@@ -1,5 +1,6 @@
-// Reset
-@import 'reset';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 // Variables
 @import 'variables';

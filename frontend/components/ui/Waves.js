@@ -17,7 +17,8 @@ const Waves = ({children, colour, inverse, overflow = false, options = {
             >
                 <defs>
                     <linearGradient id="gradient" gradientTransform="rotate(90)">
-                        <stop offset="0.3"  stopColor="#007BFF" />
+                        <stop offset="0"  stopColor="#CB6AA7" />
+                        <stop offset="0.5"  stopColor="#007BFF" />
                         <stop offset="1" stopColor={colour} />
                     </linearGradient>
                 </defs>

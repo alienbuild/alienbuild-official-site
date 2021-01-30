@@ -19,11 +19,12 @@ const DynamicLordIcon = dynamic(() => import('../../components/LordIcon'), {
 const Header = () => {
 
     return(
-        <header id="h-primary">
+        <header id="h-primary" className={`absolute inset-0`}>
             <DynamicLordIcon />
-            <nav>
-                    <ul>
-                        <li><Link href={"/"}><a>
+            <div className="container">
+                <nav>
+                    <ul className={`flex justify-center`}>
+                        <li className={`flex-auto`}><Link href={"/"}><a>
                             <lord-icon
                                 animation="loop"
                                 target="a"
@@ -35,7 +36,7 @@ const Header = () => {
                             <strong>Website</strong>
                             Development
                         </a></Link></li>
-                        <li><Link href={"/"}><a>
+                        <li className={`flex-auto`}><Link href={"/"}><a>
                             <lord-icon
                                 animation="loop"
                                 target="a"
@@ -47,7 +48,7 @@ const Header = () => {
                             <strong>Software</strong>
                             Development
                         </a></Link></li>
-                        <li><Link href={"/"}><a>
+                        <li className={`flex-auto`}><Link href={"/"}><a>
                             <lord-icon
                                 animation="loop"
                                 target="a"
@@ -59,7 +60,7 @@ const Header = () => {
                             <strong>Ecommerce</strong>
                             Development
                         </a></Link></li>
-                        <li><Link href={"/"}><a>
+                        <li className={`flex-auto`}><Link href={"/"}><a>
                             <lord-icon
                                 animation="loop"
                                 target="a"
@@ -71,7 +72,7 @@ const Header = () => {
                             <strong>UI/UX</strong>
                             Design
                         </a></Link></li>
-                        <li><Link href={"/blogs"}><a>
+                        <li className={`flex-auto`}><Link href={"/blogs"}><a>
                             <lord-icon
                                 animation="loop"
                                 target="a"
@@ -83,7 +84,7 @@ const Header = () => {
                             <strong>The Lab</strong>
                             Tutorials
                         </a></Link></li>
-                        <li><Link href={"/"}><a>
+                        <li className={`flex-auto`}><Link href={"/"}><a>
                             <lord-icon
                                 animation="loop"
                                 target="a"
@@ -97,6 +98,7 @@ const Header = () => {
                         </a></Link></li>
                     </ul>
                 </nav>
+            </div>
             <div className="hide">
                 Brand name: <Link href={"/"}>{APP_NAME}</Link>
                 <br/>
