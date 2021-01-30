@@ -22,18 +22,12 @@
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/LordIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/LordIcon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/components/ui/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/_document.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/fonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/fonts/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/icons/140-earphone-telephone/140-earphone-telephone-solid.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/icons/140-earphone-telephone/140-earphone-telephone-solid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/images/alienbuild_logo--stacked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/images/alienbuild_logo--stacked.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/components/indexHero.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/components/nprogress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/nprogress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
@@ -91,6 +85,9 @@
       <workItem from="1610997571724" duration="9069000" />
       <workItem from="1611394303748" duration="6283000" />
       <workItem from="1611406263550" duration="8796000" />
+      <workItem from="1611572840647" duration="327000" />
+      <workItem from="1611943084811" duration="1293000" />
+      <workItem from="1611998477035" duration="5479000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -465,8 +462,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/frontend/components/ui/Header.js</url>
-          <line>35</line>
-          <properties lambdaOrdinal="-1" />
+          <line>21</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

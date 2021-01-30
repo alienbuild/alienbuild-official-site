@@ -1,11 +1,9 @@
 import { APP_NAME } from '../../config'
 import { signout, isAuth } from "../../actions/auth"
-import {Grid} from "@material-ui/core"
 import NProgress from 'nprogress'
 import Link from "next/link"
 import Router from "next/router"
 import Search from "../blog/Search"
-import {makeStyles} from "@material-ui/core/styles"
 
 NProgress.configure({ showSpinner: false });
 
@@ -20,27 +18,10 @@ const DynamicLordIcon = dynamic(() => import('../../components/LordIcon'), {
 
 const Header = () => {
 
-    const useStyles = makeStyles({
-        header: {
-            height: '60px',
-            position: 'absolute',
-            top: '0',
-            left: '0'
-        }
-    });
-
-
-    const classes = useStyles();
-
     return(
-        <header id="h-primary" className={classes.header}>
+        <header id="h-primary">
             <DynamicLordIcon />
-            <Grid
-                container
-                alignItems="center"
-                justify="center"
-            >
-                <nav>
+            <nav>
                     <ul>
                         <li><Link href={"/"}><a>
                             <lord-icon
@@ -116,7 +97,6 @@ const Header = () => {
                         </a></Link></li>
                     </ul>
                 </nav>
-            </Grid>
             <div className="hide">
                 Brand name: <Link href={"/"}>{APP_NAME}</Link>
                 <br/>

@@ -54,6 +54,16 @@ body{
   font-family: 'Alliance No1';
 }
 
+.header-lead{
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: linear-gradient(-90deg, #007bff 0%, #764fd0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+}
+
 .gradient-text{
   background: linear-gradient(-90deg, #007bff 0%, #764fd0 100%);
   -webkit-background-clip: text;
