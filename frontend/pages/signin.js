@@ -1,4 +1,4 @@
-import Default from "../Templates/Default";
+import Default from "../templates/Default";
 import SigninComponent from "../components/auth/SigninComponent";
 
 const Signin = () => (

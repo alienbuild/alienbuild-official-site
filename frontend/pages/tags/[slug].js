@@ -1,5 +1,5 @@
 import Head from "next/head"
-import Default from "../../Templates/Default"
+import Default from "../../templates/Default"
 import { singleTag } from "../../actions/tag"
 import { DOMAIN, APP_NAME } from '../../config'
 import NewsCard from "../../components/blog/NewsCard"

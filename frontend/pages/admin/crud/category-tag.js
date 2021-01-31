@@ -1,4 +1,4 @@
-import Default from "../../../Templates/Default";
+import Default from "../../../templates/Default";
 import Admin from "../../../components/auth/Admin";
 import Link from "next/link"
 import Category from "../../../components/crud/Category";

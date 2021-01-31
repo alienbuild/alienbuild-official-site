@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Link from "next/link"
 import moment from "moment";
-import Default from "../../Templates/Default"
+import Default from "../../templates/Default"
 import { useState, useEffect } from 'react'
 import { singleBlog, listRelated } from "../../actions/blog"
 import { API, DOMAIN, APP_NAME } from '../../config'

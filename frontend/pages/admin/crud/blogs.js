@@ -1,4 +1,4 @@
-import Default from "../../../Templates/Default";
+import Default from "../../../templates/Default";
 import Admin from "../../../components/auth/Admin";
 import BlogRead from "../../../components/crud/BlogRead"
 import Link from "next/link"

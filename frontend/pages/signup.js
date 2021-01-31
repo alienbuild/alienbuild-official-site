@@ -1,4 +1,4 @@
-import Default from "../Templates/Default";
+import Default from "../templates/Default";
 import Link from "next/link";
 import SignupComponent from "../components/auth/SignupComponent";
 

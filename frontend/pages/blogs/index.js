@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Link from "next/link"
 import { withRouter } from 'next/router'
-import Default from "../../Templates/Default"
+import Default from "../../templates/Default"
 import { useState } from 'react'
 import { listBlogsWithCategoriesAndTags } from "../../actions/blog"
 import renderHTML from 'react-render-html'
