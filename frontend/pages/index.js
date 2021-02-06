@@ -6,7 +6,8 @@ import FullCycle from "../blocks/FullCycle"
 import AgencyPartners from "../blocks/AgencyPartners"
 import FullStack from "../blocks/FullStack"
 import {APP_NAME} from "../config"
-import TrustedClients from "../blocks/TrustedClients";
+import TrustedClients from "../blocks/TrustedClients"
+import Faq from "../blocks/Faq"
 
 const Index = () => {
 
@@ -62,11 +63,12 @@ const Index = () => {
         <Default>
 
             {heroCarousel()}
-            {Mockups()}
-            {AgencyPartners()}
-            {FullCycle()}
-            {FullStack()}
-            {TrustedClients()}
+            <Mockups />
+            <AgencyPartners />
+            <FullCycle />
+            <FullStack />
+            <TrustedClients independent={false} />
+            <Faq independent={false} />
 
             <Link href="/signup">Signup</Link>
         </Default>

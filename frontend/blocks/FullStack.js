@@ -119,7 +119,7 @@ if(yourProject.requirements.javascript) {
                         </CodeWrap>
                     </div>
                     <div className={`mb-10 text-2xl text-gray-500`}>
-                        <h2 className={`text-3xl sm:text-5xl lg:text-6 xl leading-none font-extrabold text-gray-900 tracking-tight mb-0`}>JavaScript</h2>
+                        <h2 className={`text-3xl sm:text-5xl lg:text-6 xl leading-none font-normal text-gray-900 tracking-tight mb-0`}>JavaScript</h2>
                         <ul className={`mb-5`}>
                             <li className={`inline text-sm mr-3 text-black rounded bg-yellow-300 py-1 px-2 font-bold`}>ECMAScript 5</li>
                             <li className={`inline text-sm mr-3 text-black rounded bg-yellow-300 py-1 px-2 font-bold`}>ECMAScript 6</li>
