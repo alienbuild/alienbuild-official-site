@@ -22,13 +22,14 @@ const TrustedClients = ({ independent }) => {
 
     useEffect(() => {
         setReviews([
-            { title: 'Extremely talented and caring developer', review: 'I have never worked with someone as supportive, driven and caring as Liam. He is professional, incredibly talented and a pleasure to work with. His attention to detail shines through in his quality of work and I hope we can work together again soon!'},
-            { title: 'As a well established developer', review: 'As a well established developer, I take great care with whom I work with under my personal brand of world-class react and MERN software developments. Liam / Alienbuild were simply outstanding.'},
-            { title: 'High attention to detail and positive, friendly attitude', review: 'I have worked with Liam on many digital projects and he has always met each and every milestone and exceeded every expectation we had. Liam (Alienbuild) is committed and enthusiastic about development and really adds a personal touch to the project. It’s a breath of fresh air to work with a developer who gets it right the first time.'},
-            { title: 'I was lucky enough to work with Liam…', review: 'I was lucky enough to work with Liam for 6 months on a large UI project. He was easy to communicate with and always helped me out when I needed it (I\'m an apprentice). He has a passion for design and code and enjoys writing quality code in a team environment. I hope to work on another project some time soon.'},
-            { title: 'Hardworking', review: 'Liam is a hardworking individual who is willing put in his own time to further help his work. From Working with Liam he was more than happy to share knowledge and point others to resources.'},
-            { title: 'I have worked with Alienbuild on a few…', review: 'I have worked with Alienbuild on a few projects. Excellent service, always brilliant at figuring out the bespoke builds I need. Would highly recommend'},
-            { title: 'Liam has done a good job on several…', review: 'Liam has done a good job on several projects I\'ve sent him. He\'s easy to communicate with and always very helpful. Would recommend him to others!'},
+            { title: 'Glad to work with and learn from him', date: '4 Jul 2018', cite: 'Peter Cselik, Argos', review: 'Glad to work with and learn from him. Fast efficient timesaver who dealing with the latest technology instead of following silly obsolete trends. I would recommend his company for anyone.'},
+            { title: 'I have worked with Alienbuild on a few…', date:'14 Sept 2018', cite: 'Graeme Thomas, Sodexo', review: 'I have worked with Alienbuild on a few projects. Excellent service, always brilliant at figuring out the bespoke builds I need. Would highly recommend'},
+            { title: 'Extremely talented and caring developer', date:'24 Jan 2021', cite: 'Jessica Herbert, Compare the Market', review: 'I have never worked with someone as supportive, driven and caring as Liam. He is professional, incredibly talented and a pleasure to work with. His attention to detail shines through in his quality of work and I hope we can work together again soon!'},
+            { title: 'As a well established developer', date: '6 Jan 2021', cite: 'Grant Briston, ATOS', review: 'As a well established developer, I take great care with whom I work with under my personal brand of world-class react and MERN software developments. Liam / Alienbuild were simply outstanding.'},
+            { title: 'High attention to detail and positive, friendly attitude', date:'3 Jan 2021', cite: 'Kim Sewell, Jet Design and Marketing', review: 'I have worked with Liam on many digital projects and he has always met each and every milestone and exceeded every expectation we had. Liam (Alienbuild) is committed and enthusiastic about development and really adds a personal touch to the project. It’s a breath of fresh air to work with a developer who gets it right the first time.'},
+            { title: 'I was lucky enough to work with Liam…', date: '9 Sept 2019', cite: 'Robert Baile, BGL Group', review: 'I was lucky enough to work with Liam for 6 months on a large UI project. He was easy to communicate with and always helped me out when I needed it (I\'m an apprentice). He has a passion for design and code and enjoys writing quality code in a team environment. I hope to work on another project some time soon.'},
+            { title: 'Hardworking', date:'7 Aug 2019', cite: 'Jerome Painter, BGL Group', review: 'Liam is a hardworking individual who is willing put in his own time to further help his work. From Working with Liam he was more than happy to share knowledge and point others to resources.'},
+            { title: 'Liam has done a good job on several…', date:'31 Aug 2018', cite: 'Naomi Carson, Fitpro', review: 'Liam has done a good job on several projects I\'ve sent him. He\'s easy to communicate with and always very helpful. Would recommend him to others!'},
         ])
     },[])
 
@@ -105,7 +106,7 @@ const TrustedClients = ({ independent }) => {
                                   fill="#FFF"></path>
                         </g>
                     </svg>
-                    Rated <strong>4.6</strong> / 5 based on <a href="https://uk.trustpilot.com/review/alienbuild.uk" className={`font-bold border-b border-gray-500`}>22 reviews.</a> Showing our favourite reviews.
+                    We're rated <strong>"Excellent"</strong> (<strong>4.6</strong> / 5) based on <a href="https://uk.trustpilot.com/review/alienbuild.uk" className={`font-bold border-b border-gray-500`}>22 reviews.</a> Showing our favourite reviews.
                 </div>
 
                 <Carousel itemsToShow={4} autoPlaySpeed={3000} itemPadding={[20, 20]} pagination={false}>
@@ -157,12 +158,12 @@ const TrustedClients = ({ independent }) => {
                                               fill="#FFF"></path>
                                     </g>
                                 </svg>
-                                <span className="block absolute right-3.5 top-3.5 text-gray-400">22 January</span>
+                                <span className="block absolute right-3.5 top-3.5 text-gray-400">{review.date}</span>
                             </div>
                             <span className="block font-bold">{truncate(`${review.title}`, 40)}</span>
                             <blockquote>
                                 {truncate(`${review.review}`, 88)}
-                                <cite className={`block text-gray-400 mt-2`}>Jessica Herbert</cite>
+                                <cite className={`block text-gray-400 mt-2`}>{review.cite}</cite>
                             </blockquote>
                         </a>
                     ))}

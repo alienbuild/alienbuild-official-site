@@ -24,12 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/blocks/FullStack.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/blocks/FullStack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/blocks/TrustedClients.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/blocks/TrustedClients.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       <workItem from="1611943084811" duration="1293000" />
       <workItem from="1611998477035" duration="47421000" />
       <workItem from="1612436181241" duration="814000" />
-      <workItem from="1612595803290" duration="10847000" />
+      <workItem from="1612595803290" duration="12482000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -392,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612094667271</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Integrate trustpilot carousel and styling">
+      <created>1612643754598</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1612643754598</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +413,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create fetch all blogs, categories and tags controller" />
     <MESSAGE value="Create fetch singular blog controller" />
     <MESSAGE value="Create delete singular blog controller" />
     <MESSAGE value="Create update singular blog controller" />
@@ -436,7 +437,8 @@
     <MESSAGE value="Remove material ui" />
     <MESSAGE value="Setup tailwind, integrate and setup homepage blocks" />
     <MESSAGE value="Separate code into components for the homepage blocks and expand design and content respectively" />
-    <option name="LAST_COMMIT_MESSAGE" value="Separate code into components for the homepage blocks and expand design and content respectively" />
+    <MESSAGE value="Integrate trustpilot carousel and styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrate trustpilot carousel and styling" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1011" y="564" width="641" height="533" key="#File_Watchers" timestamp="1611438812272">
@@ -479,10 +481,10 @@
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
     <state x="627" y="375" key="SettingsEditor/0.0.2250.1460@0.0.2250.1460" timestamp="1611438715049" />
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1612094673019">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1612643755984">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1612094673019" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1612643755984" />
     <state x="788" y="331" width="672" height="678" key="search.everywhere.popup" timestamp="1612642461513">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
