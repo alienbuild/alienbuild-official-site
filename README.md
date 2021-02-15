@@ -26,7 +26,7 @@ APP_NAME=Alienbuild
 NODE_ENV=development
 PORT=8000
 CLIENT_URL=http://localhost:3000
-DATABASE='mongodb+srv://alienbuild:!Daytona193@alienbuild-official-sit.yqa8e.mongodb.net/<dbname>?retryWrites=true&w=majority'
+DATABASE='<insert string here>'
 JWT_SECRET=2weowk3o4kokgFDertWAdgg435gDdfggf
 ```
 Run `npm run start` to start the back end.

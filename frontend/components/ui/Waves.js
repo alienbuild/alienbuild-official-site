@@ -1,13 +1,13 @@
 import React from 'react';
 import Wave from 'react-wavify'
 
-const Waves = ({children, colour, inverse, overflow = false, options = {
+const Waves = ({children, colour, inverse, classes, overflow = false, options = {
     height: 70,
     amplitude: 60,
     speed: 0.15,
     points: 3
 }}) => (
-    <div className={`wave-container ${inverse ? 'inverse-waves' : null}`} style={{
+    <div className={`wave-container ${classes} ${inverse ? 'inverse-waves' : null}`} style={{
     }}>
         {children}
         <div className="wave-footer">

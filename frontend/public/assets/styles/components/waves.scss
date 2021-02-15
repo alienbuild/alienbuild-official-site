@@ -2,6 +2,7 @@
   position: relative;
   color: #FFF;
   overflow: visible;
+  &.no-after:after{ display: none!important }
   &:after{
     content:"";
     height: 300px;

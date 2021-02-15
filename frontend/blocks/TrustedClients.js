@@ -45,7 +45,7 @@ const TrustedClients = ({ independent }) => {
         }
     }
     return(
-        <section className={`bg-gray-100 border-t-2 border-fuchsia-600 ${independent ? 'border-b-2 pb-44' : null} border-fuchsia-600 pt-44 `}>
+        <section className={`trustpilot__section bg-gray-100 border-t-2 border-fuchsia-600 ${independent ? 'border-b-2 pb-44' : null} border-fuchsia-600 pt-44 `}>
             <div className="container">
                 <div className="text-center">
                     <lord-icon
