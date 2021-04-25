@@ -14,7 +14,7 @@ const FullCycle = () =>{
                     <h6 className={`text-3xl sm:text-5xl lg:text-9xl leading-none font-extrabold text-gray-900 tracking-tight mb-8`}>The full cycle process</h6>
                     <h3 className={`text-pink-500 text-3xl mb-5`}>AGILE, Waterfall, EXTREME, FDD, SCRUM, LEAN, or anything else we've got you covered.</h3>
                 </div>
-                <div className="mt-20 mb-20 grid grid-cols-2 gap-20 place-items-center">
+                <div className="px-10 md:px-0 mt-20 mb-20 grid lg:grid-cols-2 gap-5 lg:gap-20 place-items-center">
                     <div className={`mb-10 text-2xl text-gray-500`}>
                         <div className="w-20 h-20 rounded-xl mb-0 flex items-center justify-center border border-gray-400">
                             <lord-icon

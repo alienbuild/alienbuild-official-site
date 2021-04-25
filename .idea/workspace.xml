@@ -24,13 +24,21 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/blocks/AgencyPartners.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/blocks/AgencyPartners.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/blocks/Faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/blocks/Faq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/blocks/FullCycle.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/blocks/FullCycle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/blocks/FullStack.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/blocks/FullStack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/blocks/TrustedClients.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/blocks/TrustedClients.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/components/ui/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/ui/Waves.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/Waves.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/components/trustpilot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/trustpilot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/components/waves.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/waves.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/ui/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/images/alienbuild_craft.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/images/alienbuild_craft.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/components/perspectiveMockups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/perspectiveMockups.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/pages/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/templates/Default.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/templates/Default.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +99,9 @@
       <workItem from="1611998477035" duration="47421000" />
       <workItem from="1612436181241" duration="814000" />
       <workItem from="1612595803290" duration="13115000" />
-      <workItem from="1612767210127" duration="16240000" />
+      <workItem from="1612767210127" duration="18548000" />
+      <workItem from="1617694142817" duration="657000" />
+      <workItem from="1619113949386" duration="41693000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -408,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612762221480</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Update FAQ section">
+      <created>1613401692063</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1613401692063</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +444,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create delete singular blog controller" />
     <MESSAGE value="Create update singular blog controller" />
     <MESSAGE value="Create show blog photo controller + route" />
     <MESSAGE value="Setup blog page on front end" />
@@ -452,7 +468,8 @@
     <MESSAGE value="Separate code into components for the homepage blocks and expand design and content respectively" />
     <MESSAGE value="Integrate trustpilot carousel and styling" />
     <MESSAGE value="Stage TrustPilot updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stage TrustPilot updates" />
+    <MESSAGE value="Update FAQ section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update FAQ section" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1011" y="564" width="641" height="533" key="#File_Watchers" timestamp="1611438812272">
@@ -495,17 +512,17 @@
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
     <state x="627" y="375" key="SettingsEditor/0.0.2250.1460@0.0.2250.1460" timestamp="1611438715049" />
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1612762222864">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1613401693666">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1612762222864" />
-    <state x="784" y="347" key="run.anything.popup" timestamp="1613312683055">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1613401693666" />
+    <state x="785" y="348" key="run.anything.popup" timestamp="1619251348369">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="784" y="347" key="run.anything.popup/0.0.2250.1460@0.0.2250.1460" timestamp="1613312683055" />
-    <state x="788" y="331" width="672" height="678" key="search.everywhere.popup" timestamp="1612642461513">
+    <state x="785" y="348" key="run.anything.popup/0.0.2250.1460@0.0.2250.1460" timestamp="1619251348369" />
+    <state x="789" y="332" width="672" height="678" key="search.everywhere.popup" timestamp="1619127296535">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="788" y="331" width="672" height="678" key="search.everywhere.popup/0.0.2250.1460@0.0.2250.1460" timestamp="1612642461513" />
+    <state x="789" y="332" width="672" height="678" key="search.everywhere.popup/0.0.2250.1460@0.0.2250.1460" timestamp="1619127296535" />
   </component>
 </project>

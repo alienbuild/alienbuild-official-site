@@ -1,9 +1,11 @@
 #h-primary{
   width: 100%;
   padding: 30px;
+  padding-top: 0;
   z-index: 20;
   text-align: center;
   height: 160px;
+  position: absolute;
   ul{
     li{
       a{
@@ -75,5 +77,39 @@
       max-width: 100%;
       transition: 0.6s all;
     }
+  }
+}
+
+.ticker-bar{
+  //position: absolute;
+  //top: 0;
+  //left: 0;
+  width: 100%;
+  background: rgba(1,1,29,0.3);
+  border-bottom: 1px solid #333;
+  justify-items: start;
+  margin-bottom: 30px;
+  opacity: 0.7;
+  .alienbuild-h-logo{
+    font-family: "Alienbuild";
+    text-transform: none;
+    text-align: center;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 0;
+    font-weight: 100;
+    position: relative;
+    color: #fff;
+  }
+}
+
+.toggle-mobile-menu{
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  display: none;
+  @media screen and (max-width: 660px){
+    display: block;
   }
 }

@@ -33,6 +33,13 @@ const TrustedClients = ({ independent }) => {
         ])
     },[])
 
+    const breakpoints = [
+        { width: 450, itemsToShow: 1},
+        { width: 550, itemsToShow: 2},
+        { width: 1280, itemsToShow: 3},
+        { width: 1536, itemsToShow: 4 }
+    ]
+
     const truncate = (str, length) => {
         const ending = '...';
         if (length == null) {
@@ -45,7 +52,7 @@ const TrustedClients = ({ independent }) => {
         }
     }
     return(
-        <section className={`trustpilot__section bg-gray-100 border-t-2 border-fuchsia-600 ${independent ? 'border-b-2 pb-44' : null} border-fuchsia-600 pt-44 `}>
+        <section className={`trustpilot__section bg-gray-100 border-t-2 border-fuchsia-600 ${independent ? 'border-b-2 pb-44' : null} border-fuchsia-600 pt-24 lg:pt-44 `}>
             <div className="container">
                 <div className="text-center">
                     <lord-icon
@@ -109,7 +116,7 @@ const TrustedClients = ({ independent }) => {
                     We're rated <strong>"Excellent"</strong> (<strong>4.6</strong> / 5) based on <a href="https://uk.trustpilot.com/review/alienbuild.uk" className={`font-bold border-b border-gray-500`}>22 reviews.</a> Showing our favourite reviews.
                 </div>
 
-                <Carousel itemsToShow={4} autoPlaySpeed={3000} itemPadding={[20, 20]} pagination={false}>
+                <Carousel breakPoints={breakpoints} autoPlaySpeed={3000} itemPadding={[20, 20]} pagination={false}>
                     {reviews && reviews.map((review, index) => (
                         <a href="https://uk.trustpilot.com/review/alienbuild.uk" className={`trustpilot-card block relative shadow bg-white p-3.5`} key={index}>
                             <div className="block tp-stars tp-stars--5 mb-3">
@@ -169,9 +176,9 @@ const TrustedClients = ({ independent }) => {
                     ))}
                 </Carousel>
 
-                <ul className={`flex items-center opacity-70 mt-5`}>
+                <ul className={`flex-wrap md:flex-nowrap flex items-center opacity-70 mt-5`}>
                     {clients && clients.map((client,index) => (
-                        <li key={index} className={`flex-1 relative mx-3`}>
+                        <li key={index} className={`md:flex-1 relative mx-3`}>
                             <img key={index} src={`${client.asset}`} alt={`${client.clientName}`} className={`w-40 max-h-12`} />
                         </li>
                     ))}

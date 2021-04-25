@@ -1,0 +1,44 @@
+#f-primary{
+  background: #01011D;
+  .alienbuild-plain-logo{
+    font-size: 36px;
+    line-height: 36px;
+  }
+  nav{
+    ul{
+      li{
+        a{
+          span{
+            position: relative;
+            &:after{
+              content:"";
+              height: 2px;
+              width: 0%;
+              position: absolute;
+              left: 0;
+              bottom: -5px;
+              background: #007bff;
+              transition: 0.3s all;
+            }
+          }
+          &:hover{
+            span{
+              color: #fff;
+              transition: 0.3s all;
+              &:after{
+                width: 100%;
+                transition: 0.6s all;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .wave-container{
+    padding-top: 100px;
+  }
+  .wave-footer{
+    bottom: 95%;
+  }
+}

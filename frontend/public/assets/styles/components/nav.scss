@@ -1,0 +1,28 @@
+#n-primary{
+  @media screen and (max-width: 660px){
+    position: fixed;
+    top: 30px;
+    left: 0;
+    height: calc(100% - 30px);
+    width: 100%;
+    background: #01011D;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    display: none;
+  }
+  &.active{
+    display: flex;
+  }
+  ul{
+    li{
+      a{
+        @media screen and (max-width: 660px){
+          padding: 20px;
+          border: 1px solid #ff2696;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

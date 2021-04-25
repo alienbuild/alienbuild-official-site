@@ -18,6 +18,9 @@
 // Components
 @import 'components/aside';
 @import 'components/header';
+@import 'components/footer';
+@import 'components/nav';
+@import 'components/buttons';
 @import 'components/waves';
 @import 'components/perspectiveMockups';
 @import 'components/trustpilot';
@@ -27,3 +30,13 @@
 
 // Trumps
 @import 'trumps';
+
+.tabs-underline{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  width: calc(100% / 5);
+  transition: 0.3s all;
+  border-radius: 20px;
+}

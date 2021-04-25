@@ -1,16 +1,16 @@
 #hero-wrap{
   background: #2b233e;
-  #index-hero{
-    height: calc(80vh);
+  .generic{
+    height: auto;
+    min-height: 200px;
     position: relative;
     overflow: hidden;
-    #matrix-container{
-      top: 0;
-      left: 0;
-      position: absolute;
-      z-index: 0;
-      opacity: 0.7;
-    }
+  }
+  .homepage{
+    height: calc(80vh);
+    min-height: 250px;
+    position: relative;
+    overflow: hidden;
     .lead{
       color: #5e9ee8;
       position: relative;
@@ -30,9 +30,6 @@
         right: 0;
       }
     }
-    h1.hero-heading{
-
-    }
     small{
       text-transform: uppercase;
       color: #ff2696;
@@ -42,10 +39,29 @@
       text-shadow: 1px 1px 1px #000;
     }
   }
+  #matrix-container{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.7;
+  }
 }
 
 #agency-partners{
   margin: 100px 0 50px 0;
+}
+
+.alienbuild-plain-logo{
+  font-family: "Alienbuild";
+  text-transform: none;
+  text-align: center;
+  font-size: 42px;
+  line-height: 42px;
+  margin-bottom: 0;
+  font-weight: 100;
+  position: relative;
+  color: #fff;
 }
 
 .alienbuild-logo{
@@ -83,8 +99,6 @@
     font-weight: 100;
     position: relative;
     color: #000;
-    //-webkit-background-clip: text;
-    //-webkit-text-fill-color: transparent;
   }
 }
 

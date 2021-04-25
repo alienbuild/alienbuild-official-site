@@ -1,11 +1,13 @@
 import Header from "../components/ui/Header";
 import Footer from "../components/ui/Footer";
 
-const Default = ({ children }) => {
+const Default = ({ children, overflowX, Hero, homepage }) => {
     return(
         <>
-            <Header />
-            {children}
+            <Header Hero={Hero} homepage={homepage} />
+            <main className={
+                    overflowX ? 'normal' : 'overflow-x-hidden'
+                }>{children}</main>
             <Footer />
         </>
     )

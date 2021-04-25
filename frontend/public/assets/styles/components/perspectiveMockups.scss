@@ -11,7 +11,10 @@
   transform: scale(0.5) rotate(-12deg) translateX(50px);
   -webkit-transform-origin: 50% 20%;
   transform-origin: 50% 20%;
-  z-index: 15;
+  z-index: 20;
+  @media screen and (max-width: 1023px){
+    display: none;
+  }
 }
 #app-illustrations.hidden-preload {
   visibility: hidden;
@@ -63,6 +66,9 @@
     transform: rotate(-12deg);
     -webkit-transform-origin: 100% 10%;
     transform-origin: 100% 10%;
+    @media screen and (max-width: 1023px){
+      display: none;
+    }
   }
   #app-illustrations.hidden-preload {
     visibility: visible;
@@ -88,7 +94,22 @@
     width: 829px;
     margin-left: auto;
     right: 100px;
-    top: 50vh;
+    top: -185px;
+    @media screen and (max-width: 1950px) {
+      right: -10%;
+    }
+    @media screen and (max-width: 1530px){
+      right: -20%;
+    }
+    @media screen and (max-width: 1260px){
+      right: -30%;
+    }
+    @media screen and (max-width: 1100px){
+      right: -40%;
+    }
+    @media screen and (max-width: 1023px){
+      display: none;
+    }
   }
   #app-illustrations .tablet-landscape {
     -ms-flex-item-align: end;
@@ -117,6 +138,7 @@
     margin-top: 50px;
   }
 }
+
 #hero{
   #web-dev{
     .browser{

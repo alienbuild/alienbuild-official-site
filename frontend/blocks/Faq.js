@@ -59,9 +59,9 @@ const Faq = ({ independent }) => {
     }
 
     return (
-        <section className={`bg-gray-100 pb-44 ${independent ? 'pt-44' : 'pt-16'}`}>
+        <section className={`bg-gray-100 px-10 md:pb-44 ${independent ? 'pt-44' : 'pt-16'}`}>
             <div className="container">
-                <div className="grid grid-cols-3 gap-20 place-items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-20 place-items-center">
                     <div>
                         <lord-icon
                             animation="hover"
@@ -83,7 +83,7 @@ const Faq = ({ independent }) => {
                             </div>
                         </div>
                     </div>
-                    <div className={`col-span-2`}>
+                    <div className={`lg:col-span-2`}>
                         <div className="faqs">
                             {faqs && faqs.map((faq, index) => (
                                 <FaqAccordion key={index} id={faq.id} question={faq.question} answer={faq.answer} />
