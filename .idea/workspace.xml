@@ -24,21 +24,140 @@
   <component name="ChangeListManager">
     <list default="true" id="e76d1563-eaea-4bb4-81ea-0cbe5e8e17ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/blocks/AgencyPartners.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/blocks/AgencyPartners.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/blocks/Faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/blocks/Faq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/blocks/FullCycle.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/blocks/FullCycle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/blocks/FullStack.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/blocks/FullStack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/blocks/TrustedClients.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/blocks/TrustedClients.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/ui/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/ui/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/ui/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/9cOs5IXejskueXPN48jbB/_buildManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/9cOs5IXejskueXPN48jbB/_ssgManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/VGWxH73ec7xCQyCIXcUgJ/_buildManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/VGWxH73ec7xCQyCIXcUgJ/_ssgManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/10.343ba24ec7982a9994c4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/23a1ba306c235896c3f036f24de22d0e138be237.d361fe83b3d856017cfd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/258e14f070dbcd847cdc093aba7ce994a86a1c3f.85e22259c8e490b37ecb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/29.1d33db8ea7097f3ff715.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/75fc9c18.70ad6a3a0926069fe73c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/amp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/cabe9fa52730928ca317b9d7ed6ffc58a3eef9fa.e62fcdf0bb79e0a967ec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/commons.fdb8e5a3e4905118cace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/ea88be26.cf6305ee256ec36ec394.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/eabe11fc.4da099bc79e15d2c76e1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/f34c5a9c985908faf8ff4fed00117f6d35cf35bc.5c69bfc95be70562178a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/faa60d85ea9dbda7854ccd9560a60b6ed9af254d.bf2a1c10c06bbc8935a5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/framework.e7ff4fbbab0aa64bc670.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/main-60c570b7a4b58d122e7a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/_app-e5c955fae73523fe2bc2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/_app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/_error-b2c82f4b4385f13bf7a0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/_error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/admin-ef265b6badf11c5569f7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/admin/crud/[slug]-0cc85f701971fddb7a43.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/admin/crud/blog-a73dafd3ea29f2863c56.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/admin/crud/blogs-fe0b1d54f3b7da19b1e3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/admin/crud/category-tag-84b262cecccde0a7010d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/blogs-36f45849c3d88f761099.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/blogs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/blogs/[slug]-bf3aa063d5b62d17558c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/categories/[slug]-f66af26e477b6e95d14d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/index-f0750762bbd71c4a597d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/next/dist/pages/_error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/signin-6761dc49bbd1d6766801.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/signup-99655b755dc0a3fafecf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/tags/[slug]-6aa423e36de21f1d380f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/pages/user-2e45cc693e941a50c75e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/polyfills-b6de35542bedd66fa214.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/react-refresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/webpack-2b97ab2d9aff8db36f9e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/chunks/webpack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/css/f39f8879d3a087b89a88.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/development/_buildManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/development/_ssgManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/Aliens.10585c3bdb6208e223b3dba1d21ce57b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/Aliens.47dba987b5020fa8be1c02c6a1382c70.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/Aliens.59ca5628d00e410b28965d6e9a2d40a5.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/Aliens.94d3b69f6f5788a7ef97382bbf844608.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/Aliens.cb201b93854a2123821bee79b6c5d1ef.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-ExtraBold.49aa820cbf954ee6c6503576a6acf476.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-ExtraBold.59aa94beea45a3ffce5ab876032d4183.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-ExtraBold.5ab887727b75756c060b1c2a43cbfa7d.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-ExtraBold.5fab49243eda826f3650f0df28659d98.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-ExtraBold.a70410056d2129d39b3089f2e62b3921.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-Regular.0c2743b4178866a7404bf13d20055050.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-Regular.98c19ce6dcf0e4629f3ad57a0ee7a49d.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-Regular.9e3a589f6f92960e831fe3ad9ae5f41f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-Regular.c26c818447bf233ac15da913c94b9f3c.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-Regular.d709597821ceb5b455aabe741ef55225.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-SemiBold.056da09e6895f19620128f68cde396bc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-SemiBold.3b50b84330f1c78c2a20ad75839f27b3.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-SemiBold.4f8cc9d790286975c6714a8ffe9c9aab.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-SemiBold.ded5b47960997c89804d1c60f61d0626.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/media/AllianceNo1-SemiBold.fabc54f1c7ca2e8b948846323db4a2e4.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/097ffc4ee2674a762aa9.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/150d51481f27d806bf97.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/180cbcda672be423e7ce.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/19aaf6ab7a3726d4c9ac.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/25fb7075784dc1a98db9.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/3d767962d5e742942a75.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/44cafb7d74cd20aac49a.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/4ca2711221f25d414b3d.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/55caa7021fe7e2b478ca.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/7098e65d3e4914b848cd.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/721953457a5b0e1392cd.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/7a1d6a68f572f4e71472.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/7c0896d2e3636ffb7f57.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/7d543b139f5318f02f12.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/7f015628e05585868916.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/974a606e25c5d4a8a0f7.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/9c1e3924a0d94b6d1726.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/a6c5e65277e5ca515b3a.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/ac6a8aace07996d07611.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/bb0472c61816daad3df6.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/c16c769cf2a6003eba71.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/c1c06c4e24d0b963de0e.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/cc44272ff66f8d2ce54d.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/d49e546d12308a8dc9d2.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/dd3ec71a1b6e088bcff0.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/e7a0f1411072589a5a25.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/ee6a1c70f5d5afde5434.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/f08bc4b3d9bdab2776be.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/f1b21555b218037e5c73.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/f9868c4278822c333362.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/_app.097ffc4ee2674a762aa9.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/_app.180cbcda672be423e7ce.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/_app.19aaf6ab7a3726d4c9ac.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/_app.44cafb7d74cd20aac49a.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/_app.7c0896d2e3636ffb7f57.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/_app.7f015628e05585868916.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/_app.974a606e25c5d4a8a0f7.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/_app.a6c5e65277e5ca515b3a.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/_app.c16c769cf2a6003eba71.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/_app.e7a0f1411072589a5a25.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/_app.ee6a1c70f5d5afde5434.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/blogs.150d51481f27d806bf97.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/blogs.3d767962d5e742942a75.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/blogs.4ca2711221f25d414b3d.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/blogs.7098e65d3e4914b848cd.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/blogs.721953457a5b0e1392cd.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/blogs.7a1d6a68f572f4e71472.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/blogs.bb0472c61816daad3df6.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/blogs.dd3ec71a1b6e088bcff0.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/blogs.f1b21555b218037e5c73.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/blogs.f9868c4278822c333362.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/index.150d51481f27d806bf97.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/index.3d767962d5e742942a75.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/index.4ca2711221f25d414b3d.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/index.7098e65d3e4914b848cd.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/index.721953457a5b0e1392cd.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/index.7a1d6a68f572f4e71472.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/index.ac6a8aace07996d07611.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/index.bb0472c61816daad3df6.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/index.c1c06c4e24d0b963de0e.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/index.dd3ec71a1b6e088bcff0.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/index.f08bc4b3d9bdab2776be.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/index.f1b21555b218037e5c73.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/out/_next/static/webpack/pages/index.f9868c4278822c333362.hot-update.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/images/alienbuild_craft.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/images/alienbuild_craft.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/components/perspectiveMockups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/components/perspectiveMockups.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/pages/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/assets/styles/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/templates/Default.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/templates/Default.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +220,8 @@
       <workItem from="1612595803290" duration="13115000" />
       <workItem from="1612767210127" duration="18548000" />
       <workItem from="1617694142817" duration="657000" />
-      <workItem from="1619113949386" duration="41693000" />
+      <workItem from="1619113949386" duration="44778000" />
+      <workItem from="1619775190175" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="Setup express, mongoDB and API routing">
       <created>1609584822485</created>
@@ -425,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613401692063</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Dump">
+      <created>1619350866379</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1619350866379</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create update singular blog controller" />
     <MESSAGE value="Create show blog photo controller + route" />
     <MESSAGE value="Setup blog page on front end" />
     <MESSAGE value="Setup SSR for get all blogs" />
@@ -469,7 +595,8 @@
     <MESSAGE value="Integrate trustpilot carousel and styling" />
     <MESSAGE value="Stage TrustPilot updates" />
     <MESSAGE value="Update FAQ section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update FAQ section" />
+    <MESSAGE value="Dump" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dump" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1011" y="564" width="641" height="533" key="#File_Watchers" timestamp="1611438812272">
@@ -512,10 +639,10 @@
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
     <state x="627" y="375" key="SettingsEditor/0.0.2250.1460@0.0.2250.1460" timestamp="1611438715049" />
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1613401693666">
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2" timestamp="1619350871298">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
-    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1613401693666" />
+    <state x="718" y="450" key="Vcs.Push.Dialog.v2/0.0.2250.1460@0.0.2250.1460" timestamp="1619350871298" />
     <state x="785" y="348" key="run.anything.popup" timestamp="1619251348369">
       <screen x="0" y="0" width="2250" height="1460" />
     </state>
